@@ -5,16 +5,16 @@
     <title>Jason Tan's Personal Website Thoughts</title>
     <link rel="stylesheet" href="style.css">
   </head>
-<body>
+
   <header>
     <div class="main">   
         <ul>
           <li><a href="index.html">Home</a></li>
-           <!--      <li><a href="AboutMe.html">About Me</a></li>  -->
+      <!--    <li><a href="AboutMe.html">About Me</a></li>  -->
+          <li><a href="journal.html">Journal</a></li>
           <li><a href="projects.html">Projects</a></li>
-          <li><a href="nonstalgia.html">Memorable Moments</a></li>
-          <li><a href="mosaic.html">Mosaic (All My Friends in my Life) </a></li>
-   <!--        <li><a href="ContactMe.html">Contact</a></li> -->
+          <li><a href="nonstalgia.html">Museum of My Nonstalgia</a></li>
+          <li><a href="mosaic.html">Mosaic of Friends </a></li>
         </ul>
     </div>
  
@@ -32,29 +32,35 @@
         <br>Made using <strong>HTML </strong>,<strong> CSS </strong>, and <strong>JavaScript</strong>! Enjoy! &#128513;
       </p>     
     </div>
-  </header>
- 
+  </header>  
+  <body>
+  
   <!-- about -->
   <div class = "about">  
          <br>
-         <img class="icon" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fcircle-cropped%20(1).png?v=1622396419698" style="max-width:100%;height:auto; margin-right:15px " />   
+         <img class="icon" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fcircle-cropped%20(1).png?v=1622396419698" style="max-width:100%;height:auto; margin-right:15px " /> 
+    
   </div>
   
  
     
     <div class = "about">
-      <h1><br>
-      About me
-    </h1>
+      
             <br>
       <p>
               Dear webviewer,
               <br>If you are viewing this home page, you will realize that I've created a personal webpage just for myself to officially commemorate 
-                  at least 21 years of living on Earth. 21 years of my life has gone quick and there have been important moments that I've encountered 
+                  at least 21 years of living on Earth.<br><br> 21 years of my life has gone quick and there have been important moments that I've encountered 
                   throughout my life starting from what life was like for me without Iphones up until present where I'm living in the time where 
-                  Iphones exist. One of my favorite moments I like
+                  Iphones exist. To celebrate this, I have worked hard 24/7 after Spring 2021 semester ended to work on my website just as a way to celebrate my 21 years of livelihood experience by
+                  storing all my nonstalgic memories in here so they don't remain lost. Some of the things I've worked hard on was learning HTML, CSS, and JavaScipt and actually using what I've learned so I can
+                  make my web design better. <br><br>
+                  As my 21st birthday comes closer as a way of marking my 21 years as a "human", I feel proud about how I've grown a lot as an individual. I never thought time would go by pretty fast from being once a young child to currently an adult. 
+                  I predict that it'll be the same experience when I'm about to soon become an elder (grandpa) in a few years. I hope you enjoy checking out each portion of my website.
+                  
       </p>
     </div> 
+    
   
  <!-- footer -->
   
@@ -73,7 +79,7 @@
       
       <li class="footer-li">
         <a href="https://www.instagram.com/jtan_21centurysightseer/" target="_blank">
-          <img class="icon" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Finstagram_circle_black-512.png?v=1622387876425" style="width: 100px; height: 100px;" />
+          <img class="icon" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Finstagram-logo-svg-vector-for-print.svg?v=1623621167680" style="width: 100px; height: 100px;" />
         </a>
       </li>
       
@@ -90,9 +96,24 @@
       </li>        
 <br><br><p style="font-size:40px; ">@ 2021 Jason Tan</p>
     </ul>
-    
-   
     </div>
+    
+    <script>
+      var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 9000);    
+}
+    </script>
   
 
 </body>
