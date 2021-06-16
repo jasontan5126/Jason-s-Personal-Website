@@ -5,7 +5,6 @@
     <title>Jason Tan's Personal Website Thoughts</title>
     <link rel="stylesheet" href="style.css">
   </head>
-
   <header>
     <div class="main">   
         <ul>
@@ -29,7 +28,7 @@
   <br><p style="font-size:2vw;">
         Welcome to my first self-made personal website <br> dedicated 
         to at least 21 years living on <span style="color:green"><strong>Earth</strong></span> 
-        <br>Made using <strong>HTML </strong>,<strong> CSS </strong>, and <strong>JavaScript</strong>! Enjoy! &#128513;
+        <br>Made using <strong>HTML, </strong><strong> CSS, </strong> and <strong>JavaScript</strong>! Enjoy! &#128513;
       </p>     
     </div>
   </header>  
@@ -97,23 +96,6 @@
 <br><br><p style="font-size:40px; ">@ 2021 Jason Tan</p>
     </ul>
     </div>
-    
-    <script>
-      var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 9000);    
-}
-    </script>
   
 
 </body>
