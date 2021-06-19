@@ -5,17 +5,28 @@
     <title>Jason Tan's Personal Website Thoughts</title>
     <link rel="stylesheet" href="style1.css">
   </head>
-<body>
+
   <header>
-    <div class="main">      
-        <ul>
-          <li><a href="index.html">Home</a></li>
-           <!--      <li><a href="AboutMe.html">About Me</a></li>  -->
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="nonstalgia.html">Memorable Moments</a></li>
-          <li><a href="mosaic.html">Mosaic (All My Friends in my Life) </a></li>
-        </ul>
-    </div>
+    
+    <div class="navbar">
+          <a href="index.html">Home</a>
+          <a href="journal.html">Journal</a>
+          <a href="projects.html">Projects</a>
+          
+          <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">Museum of My Nostalgia
+              <i class="fa fa-caret-down"></i>
+            </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="nonstalgia.html">Games</a>
+            <a href="nonstalgia1.html">Technologies</a>
+            <a href="nonstalgia2.html">Kids Shows/Cartoons</a>
+          </div>
+          </div> 
+      <a href="mosaic.html">Mosaic of Friends </a>
+</div>
+    
+    
     <div class="title">
        <h1>
          <br>
@@ -23,11 +34,11 @@
       </h1>      
     </div>    
   </header>
-  
+  <body>
   <div id = "body" class = "projectList"> 
     
     <div id = "project5" style="text-align: center;"><br>
-      <h1 style= "font-size: 60px;">Emulation of Ubantu Linux Terminal (Fall 2020)</h1>
+      <h1 style= "font-size: 60px;">Emulation of Ubantu Linux Terminal <br>(Fall 2020)</h1>
       <p style= "font-size: 20px; margin-right: 300px; margin-left: 300px; text-align: left;"><br><br>
         <strong>Description: </strong> 
         Implemented in <strong>Java </strong>which emulates the Ubantu Linux Terminal as in a real Linux terminal of using its list of commands<br><br>
@@ -215,7 +226,7 @@
       
       <li class="footer-li">
         <a href="https://www.instagram.com/jtan_21centurysightseer/" target="_blank">
-          <img class="icon" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Finstagram_circle_black-512.png?v=1622387876425" style="width: 100px; height: 100px;" />
+          <img class="icon" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Finstagram-logo-svg-vector-for-print.svg?v=1623621167680" style="width: 100px; height: 100px;" />
         </a>
       </li>
       
@@ -251,6 +262,24 @@
     }
     x[slideIndex-1].style.display = "block";  
   }
+</script>
+    
+     <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
 </script>
   
   
