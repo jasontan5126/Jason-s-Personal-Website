@@ -1,57 +1,72 @@
 <!DOCTYPE html>
 <html>
   <head>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jason Tan's Personal Website Thoughts</title>
     <link rel="stylesheet" href="style2.css">
   </head>
-<body>
   <header>
-    <div class="main">
-   
-        <ul>
-          <li><a href="index.html">Home</a></li>
-      <!--    <li><a href="AboutMe.html">About Me</a></li>  -->
-          <li><a href="journal.html">Journal</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="nonstalgia.html">Nonstalgia (Items, etc)</a></li>
-          <li><a href="mosaic.html">Mosaic (All My Friends I've Met in Life) </a></li>
-        </ul>
-    </div>
+    <div class="navbar">
+          <a href="index.html">Home</a>
+          <a href="journal.html">Journal</a>
+          <a href="projects.html">Projects</a>
+          
+          <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">Museum of My Nostalgia
+              <i class="fa fa-caret-down"></i>
+            </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="nonstalgia.html">Games</a>
+            <a href="nonstalgia1.html">Technologies</a>
+            <a href="nonstalgia2.html">Kids Shows/Cartoons</a>
+          </div>
+          </div> 
+      <a href="mosaic.html">Mosaic of Friends </a>
+</div>
     
-    <div class="title">
-      
-       <h1>
-         <br>         
-         Journal of My Life 📝
+    <div class="title">  
+       <h1>   
+         Story of My Life 📝
        </h1>
       
       <br><p style="font-size:2vw;">
         A place where all my thoughts and memorable moments/encounters are secured in one place <br> without ever being lost/forgotten in history      
-        <p style= "font-size:50px;">
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (⊹◕ʖ̯◕)        
-        </p>
-      </p>
-      
+          (⊹◕ʖ̯◕)        
+      </p>      
     </div>
   </header>
+
+<body>
   
   <div class = "body;" style = "text-align: center;">
      <br>
      <h2 style = "text-align: center; margin-right: 200px; " >
-       <span style = "background-color: #F0FFFF;"> All Journal Posts By Date (2021-Present) (From Most Recent to Least Recent)</span>
+       <span > All Journal Posts By Date (2021-Present) (From Most Recent to Least Recent)</span>
      </h2>
     <br><br>
     <p style = "text-align: center; margin-right: 600px; font-size: 25px;">
       <strong>2021:</strong><br><br>
-      <p style = "text-align: center; margin-right: 370px; font-size: 20px;">&bull; <a href="#">My First Journal - June 3, 2021</a></p>
-    
-    </p>
-  <br>
-  
+      <p style = "text-align: center; margin-right: 370px; font-size: 20px;">&bull; <a href="#">My First Journal - June 3, 2021</a></p>    
+    </p><br> 
   </div>
 
-  
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
   
   <!-- footer -->  
   <div id = "bottom" class ="footer" style= "text-align: center;">
@@ -70,7 +85,7 @@
       
       <li class="footer-li">
         <a href="https://www.instagram.com/jtan_21centurysightseer/" target="_blank">
-          <img class="icon" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Finstagram_circle_black-512.png?v=1622387876425" style="width: 100px; height: 100px;" />
+          <img class="icon" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Finstagram-logo-svg-vector-for-print.svg?v=1623621167680" style="width: 100px; height: 100px;" />
         </a>
       </li>
       
@@ -83,10 +98,9 @@
         <a href="https://github.com/jasontan5126" target="_blank">
           <img class="icon" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fgithub-mark.png?v=1622564069518" style="width: 100px; height: 100px;" />
         </a>
-      </li>        
-<br><br><p style="font-size:40px; ">@ 2021 Jason Tan</p>
+      </li><br><br>
+      <p style="font-size:40px; ">@ 2021 Jason Tan</p>
     </ul>   
-    </div>
-     
+  </div>     
 </body>
-  </html>
+</html>
