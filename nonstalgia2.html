@@ -10,35 +10,37 @@ typing web
     <link rel="stylesheet" href="style7.css">
   </head>
 <body>
+  <main>
   <header>
-    <div class="main">
-      
-        <ul>
-          <li><a href="index.html">Home</a></li>
-      <!--    <li><a href="AboutMe.html">About Me</a></li>  -->
-          <li><a href="journal.html">Journal</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="nonstalgia.html">Museum of My Nonstalgia</a></li>
-          <li><a href="mosaic.html">Mosaic of Friends </a></li>
-        </ul>
-    </div>
+    <div class="navbar">
+          <a href="index.html">Home</a>
+          <a href="journal.html">Journal</a>
+          <a href="projects.html">Projects</a>
+          
+          <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">Museum of My Nostalgia
+              <i class="fa fa-caret-down"></i>
+            </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="nonstalgia.html">Games</a>
+            <a href="nonstalgia1.html">Technologies</a>
+            <a href="nonstalgia2.html">Kids Shows/Cartoons</a>
+          </div>
+          </div> 
+      <a href="mosaic.html">Mosaic of Friends </a>
+</div>
     <div class="title">
+      
+           
        <h1>
-         Hello My Good Old Times!
-      </h1>
-      
-      <p style= "font-size:40px;">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        ♡(  ＾)💗(＾ *)♡<br><br>
-      </p>
-      
-      <p style= "font-size:17px;">
-        A place to reflects on all the memories I've experienced before Smartphones (Iphones)
-      </p>
-      
-      <div class="button">
-        <a href="#"></a>
-      </div>
+         <!-- Auto type my name
+          -->
+         Hello My Good Old Times! 
+       </h1>
+     
+  <br><p style="font-size:2vw;">
+        A place to reflects on all the memories I've <br>experienced before Smartphones (Iphones)
+      </p>     
     </div>
   </header>
   
@@ -47,19 +49,18 @@ typing web
       <strong>Symbol</strong><br>
       🛈 = My Own Opinion about a "Specific Part"
     </p>
-    <button class="dropbtn">Dropdown</button>
-    <div class="dropdown-content">
-      <a href="nonstalgia.html">Games</a>
-      <a href="nonstalgia1.html">Technology</a>
-      <a href="nonstalgia2.html">Kids Shows/Cartoons</a>
-    </div>
   </div>
   
-  <div id = "tableofcontent"><br>
-     <h2 style = "text-align: center; margin-right: 100px; font-size: 25px;">Table of Content</h2><br>
-     <a style = "margin-left: 350px;" href="#nonstalgialist">Kids Shows/Movies (Watched as a Kid)</a><br>
-     <a style = "margin-left: 350px;" href="#test">Game Shows</a><br>
-  </div>
+  
+    
+    <nav id = "tableofcontent" style= "position: sticky; top: 2rem; align-self: start; margin-left: 1130px; text-decoration: none;  background-color: black;"><br><br>
+    <ol>
+     <h2 >Table of Content</h2><br>
+     <a style = "text-decoration: none; color: #ccc; transition: all 50ms ease-in-out;" href="#nonstalgialist">Kids Shows/Movies (Watched as a Kid)</a><br><br>
+     <a style = "text-decoration: none; color: #ccc; transition: all 50ms ease-in-out;" href="#test">Game Shows</a><br><br>   
+    </ol>
+  </nav>
+    
     
    <div id = "nonstalgialist" style="text-align: center;"><br>
      <p style = "text-align: center; margin-right: 100px; font-size: 25px;">
@@ -291,6 +292,25 @@ typing web
       <p><br>Wipeout & America Ninja Warrior 
       </p><br><br>    
   </div>
+
+
+  <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
     
    <!-- footer -->  
   <div id = "bottom" class ="footer" style= "text-align: center;">
@@ -326,5 +346,6 @@ typing web
 <br><br><p style="font-size:40px; ">@2021 Jason Tan</p>
     </ul>   
     </div>
+</main>
 </body>
   </html>
