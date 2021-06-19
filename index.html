@@ -6,20 +6,27 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <header>
-    <div class="main">   
-        <ul>
-          <li><a href="index.html">Home</a></li>
-      <!--    <li><a href="AboutMe.html">About Me</a></li>  -->
-          <li><a href="journal.html">Journal</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="nonstalgia.html">Museum of My Nonstalgia</a></li>
-          <li><a href="mosaic.html">Mosaic of Friends </a></li>
-        </ul>
+    
+    <div class="navbar">
+          <a href="index.html">Home</a>
+          <a href="journal.html">Journal</a>
+          <a href="projects.html">Projects</a>
+          
+          <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">Museum of My Nostalgia
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="nonstalgia.html">Games</a>
+              <a href="nonstalgia1.html">Technologies</a>
+              <a href="nonstalgia2.html">Kids Shows/Cartoons</a>
+            </div>
+          </div> 
+        <a href="mosaic.html">Mosaic of Friends </a>
     </div>
  
     <div class="title">      
        <h1>
-        <br>
          <!-- Auto type my name
           -->
          Hi, I'm Jason Tan 
@@ -59,6 +66,24 @@
                   
       </p>
     </div> 
+    
+      <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
     
   
  <!-- footer -->
