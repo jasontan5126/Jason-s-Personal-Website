@@ -26,18 +26,13 @@
     </div>
  
     <div class="title">      
-       <h1>
-         <!-- Auto type my name
-          -->
+       <h1>  
          Hi, I'm Jason Tan 
-       </h1>
-     
-  <br><p style="font-size:2vw;">
-        Welcome to my first self-made personal website <br> dedicated 
-        to at least 21 years living on <span style="color:green"><strong>Earth</strong></span> 
-        <br>Made using <strong>HTML, </strong><strong> CSS, </strong> and <strong>JavaScript</strong>! Enjoy! &#128513;
-      </p>     
+       </h1><br>    
     </div>
+    <div class="typewriter" id="myTypewriter">
+      <p>Welcome to my first personal website made by me</p>
+    </div> 
   </header>  
   <body>
   
@@ -83,6 +78,28 @@ window.onclick = function(e) {
     }
   }
 }
+        
+        
+var messages=["I am a SBU computer engineering student", "I like to design because it helps me learn to think", "During my free time, I like to think intellectually about life", "I worked hard this summer 24/7 to make it appealing to you", "I hope you enjoy all the features of my web (づ｡◕‿‿◕｡)づ", "Let me know what web parts are good or can be improved"];
+var rank=0;
+
+// Code for Chrome, Safari and Opera
+document.getElementById("myTypewriter").addEventListener("webkitAnimationEnd", changeTxt);
+
+// Standard syntax
+document.getElementById("myTypewriter").addEventListener("animationend", changeTxt);
+
+function changeTxt(e){
+  _p = this.getElementsByTagName("p")[0];
+  _p.style.webkitAnimation = 'none'; // set element animation to none
+   setTimeout(function() { // you surely want a delay before the next message appears
+      _p.innerHTML=messages[rank];
+      var speed =3.5*messages[rank].length/20; // adjust the speed (3.5 is the original speed, 20 is the original string length
+      _p.style.webkitAnimation = 'typing '+speed+'s steps(40, end), blink-caret .75s step-end infinite'; //  switch to the original set of animation      
+      (rank===messages.length-1)?rank=0:rank++; // if you have displayed the last message from the array, go back to the first one, else go to next message
+    }, 1000);
+}
+        
 </script>
     
   
