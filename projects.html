@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jason Tan's Personal Website Thoughts</title>
+    <title>Jason Tan's Personal Website</title>
     <link rel="stylesheet" href="style1.css">
   </head>
 
@@ -23,7 +23,7 @@
             <a href="nonstalgia2.html">Kids Shows/Cartoons</a>
           </div>
           </div> 
-      <a href="mosaic.html">Mosaic of My Friends </a>
+      <a href="mosaic.html">Mosaic of Friends </a>
 </div>
     
     
@@ -31,30 +31,34 @@
        <h1>
          <br>
          My Projects
-      </h1>      
+      </h1>  
+      
+      <p>
+        All projects I've done/implemented with my own dedication plus sacrifice of my own free time or even sleep time
+      </p>
     </div>    
   </header>
   <body>
   <div id = "body" class = "projectList"> 
     
     <div class="project5" id = "project5"><br>
-      <h1 style= "font-size: 60px;">Emulation of Ubantu Linux Terminal <br>(Fall 2020)</h1>
-      <p><br><br>
+      <h1><u>Emulation of Ubantu Linux Terminal <br>(Fall 2020)</u></h1>
+      <p><br>
         <strong>Description: </strong> 
-        Implemented in <strong>Java </strong>which emulates the Ubantu Linux Terminal as in a real Linux terminal of using its list of commands<br><br>
+        Implemented in <strong>Java </strong>which emulates the Ubantu Linux Terminal as in a real Linux terminal of using its list of commands.
         <strong>List of commands that are supported: </strong> pwd, ls, ls -R, cd {dir}, cd / , touch {name}, exit, find {name}, cd .. , cd {path}
       </p><br><br>
       
-      <img class="icon" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fb795f82c-1515-45bc-8bde-29bfc5cc5e3d.image.png?v=1622691681329" /><br>
+      <img class="icon1" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fb795f82c-1515-45bc-8bde-29bfc5cc5e3d.image.png?v=1622691681329" /><br>
       <p>
         <strong>Figure: </strong>Sample output of emulating an actual Ubantu linux terminal by testing actual Linux commands
       </p>
-      
+    </div><br><br>
     
-    </div>
+    <hr>
     
-    <div id = "project4" style="text-align: center;"><br>
-      <h1 style= "font-size: 60px;">Pipelined SIMD multimedia unit (Fall 2020) Creds also to <u>Alan Domingo</u></h1><br>
+    <div id = "project4" class = "project4"><br>
+      <h1><u>Pipelined SIMD multimedia unit (Fall 2020) Creds also to Alan Domingo</u></h1><br>
       
       <p><br><br>
         <strong>Description: </strong> 
@@ -70,27 +74,22 @@
       </p><br>
       
       
-      <div class="waveforms">
-        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)" style= "font-size: 30px; max-width: 100%;;" >&#10094;</button>        
-        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)" style= "font-size: 30px; width: 30px;">&#10095;</button>
+      <div class="waveforms" style="text-align:center;">
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)" style= "font-size: 30px; color: black;" >&#10094;</button>        
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)" style= "font-size: 30px;  color: black;">&#10095;</button>
         <img class="mySlides" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fwaveforms.PNG?v=1622685086162" >
         <img class="mySlides" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fwaveforms_zoomed.PNG?v=1622685132884" >
         <p>
           <strong>Figure(s): </strong> Output waveforms for the Pipelined SIMD multimedia unit where one figure is zoomed in and one figure is zoomed out
         </p><br> 
-      </div>
+      </div>     
+    </div><br><hr>
+    
+    
+    <div id = "project3" class= "project3"><br>
+      <h1><u>SPI Transmitter and Receiver (Spring 2020)</u></h1><br>
       
-      
-    </div>
-   
-    
-    
-    
-    
-    <div id = "project3"><br>
-      <h1 style= "font-size: 60px;">SPI Transmitter and Receiver (Spring 2020)</h1><br>
-      
-      <p >
+      <p>
         <strong>Description: </strong> Programmed in <strong>VHDL (VHSIC Hardware Description Language)</strong> - Simulated waveforms are generated in which each bit of data input from MSB is being transmitted to the SPI receiver to receive each bit of data from the SPI transmitter. 
       </p><br>
       
@@ -102,17 +101,13 @@
        <strong> SS_Bar (Slave Select Bar) </strong> is the control signal that signals to the slave device that data is ready to be transmitted in this case when SS_Bar goes from a logic 1 to logic 0.
       </p><br>
       
-      <p style= >
+      <p>
         <strong>  POL (Clock Polarity) </strong> controls the polarity of the clock. Since SCK doesn't stays a constant value until its ready to transmit data CPOL determines that. If CPOL=1 clock stays at logic 1 when not transmitting data and the opposite when 0.
       </p><br>
       
-      <p >
+      <p>
        <strong> CPHA (clock phase) </strong> determines which edge data is shifted at relative to the clock pulses. If CPHA is a 1 a but is transferred at a leading edge of the clock and if CPHA is a a 0 its transferred at a trailing edge of clock.
       </p><br>   
-      
-      <p style= "text-align: left; margin-left: 100px;"> 
-        <br><strong>NOTE: </strong> I was not able to synthesize it in the FPGA (Field-Programmable Gate Array) b/c of COVID. Plus the lab room was closed during that time.
-      </p><br><br>
       
       
       <img class="icon" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Ftoplevel.PNG?v=1622640792316"  /><br>
@@ -140,14 +135,16 @@
         <strong>Figure: </strong><u>Finite State Machine</u> Diagram for the <strong>SPI receiver</strong>  
       </p><br>
       
-      <iframe src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Flab%209%20task%203%20waveforms.pdf?v=1622688330100"></iframe>
+      <img class="icon" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2FCapture33.PNG?v=1625101615977"  /><br>
       <p >
         <strong>Figure: </strong>SPI transmitter and receiver combined output waveforms for each possible input bit values for <strong> dord, cpol, cpha. </strong>
       </p><br>
-    </div>
+    </div><br>
     
-    <div id = "project2"><br>
-      <h1 style= "font-size: 60px;">Programmable Pulse Generator (Fall 2019)</h1><br>
+    <hr>
+    
+    <div id = "project2" class="project2"><br>
+      <h1><u>Programmable Pulse Generator (Fall 2019)</u></h1><br>
       
       <p>
          <strong>Description: </strong> Programmed in <strong>Atmel Studio (Assembly) for the ATMEGA324A microcontroller</strong> - An embedded system where the user enters a
@@ -164,9 +161,7 @@
       <p style= "font-size: 20px;">
         <strong>Figure:</strong> My Final Embedded System Design on a Microcontroller (ATMEGA 324)
       </p><br>
-      
-      
-      
+        
       <img class="icon" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Ffsm.PNG?v=1622601167003" /> 
       <p style= "font-size: 20px;">
         <strong>Figure:</strong> My Own <u>Finite State Machine</u> Diagram for the Project
@@ -175,17 +170,13 @@
       <img class="icon" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2FIMG-3735.JPG?v=1622671195054"  /> 
       <p style= "font-size: 20px; ">
         <strong>Figure:</strong> The Output of My Embedded System Project
-      </p><br>
-      
-      
-      
-      
-      
-      
-    </div>
+      </p><br><br>
+  </div>
     
-    <div id = "project1"><br>
-      <h1 style= "font-size: 60px;">LED Clock (Spring 2019)</h1><br>  
+    <hr>
+    
+    <div id = "project1" class="project1"><br>
+      <h1><u>LED Clock (Spring 2019)</u></h1><br>  
       <p>
         <strong>Description: </strong>My first project as a CE major which was done in <span style="color:white;font-weight:bold">Assembly C</span> : LED digital clock with a timekeeping function to fast-forward the number of hours and minutes, alarm function, USB charging port 
         and an LED binary seconds counter using uniquely-colored LED bulbs that blink
@@ -208,7 +199,7 @@
   <div id = "bottom" class ="footer" >
     
     <ul class="contact">    
-      <p style="font-size:60px; ">
+      <p>
        Looking forward to connecting with u!!!        
       </p>
       <br>
@@ -235,7 +226,7 @@
           <img class="icon" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fgithub-mark.png?v=1622564069518" style="width: 100px; height: 100px;" />
         </a>
       </li>        
-<br><br><p style="font-size:40px; ">@ 2021 Jason Tan</p>
+<br><br><p>@ 2021 Jason Tan</p>
     </ul>   
     </div>
   
