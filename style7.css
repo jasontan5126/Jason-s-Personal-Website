@@ -2,261 +2,977 @@
 For nonstalgia2.html
 */
 
-body {
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2F2197042.jpg?v=1623808933941);
-  height: 130vh;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;    
-  background-repeat: no-repeat;
-}
-
-
-*{
+* {
   margin: 0;
   padding: 0;
-  font-family: 'Righteous', cursive;
-  color:white;
-    
+  font-family: "Courier New", sans-serif;
+  color: white;
 }
 
-header{
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fdownload.jpg?v=1622253101081);
-  height: 130vh;
-  background-size: cover;
-  background-position: center;
-  min-height: 500px;
-  background-attachment: fixed;    
+/* Desktops 
+@media screen and (min-width: 769px) { */
+@media screen and (min-width: 1500px) and (max-width: 2000px) {
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2F2197042.jpg?v=1623808933941);
+    height: 130vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-}
+  }
 
-.title h1{
-  color: #fff;
-  font-size: 70px;
-  position:static;
-  margin-left: 20%;
-  padding-top: 10%;
-   
-}
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(https://preview.redd.it/0bb6dqsiab451.gif?s=b0c65596a54a30708da26669da6e79abf3be1680);
+    height: 130vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-repeat: repeat;
+  }
 
-.title p{
-  color: #fff;
-  margin-left: 30%;
-  margin-right: 8%; 
-}
+  .tableofcontent ol {
+    position: sticky;
+    top: 2rem;
+    padding-left: 750px;
+    align-self: start;
+    max-width: 100%;
+    text-decoration: none;
+    font-size: 25px;
+  }
 
-ul{
-  float: right;
-  margin-right: 110px;
-  list-style-type: none;
-  margin-top: 25px;
-  
-}
+  .title h1 {
+    color: #fff;
+    font-size: 70px;
+    position: static;
+    margin-left: 25%;
+    padding-top: 10%;
+  }
 
-ul li{
-  display: inline-block;
-}
+  .title p {
+    color: #fff;
+    margin-left: 30%;
+    margin-right: 8%;
+  }
 
-.main ul li a{
-  text-decoration:none;
-  color: #fff;
-  padding: 10px 20px;
-  border:1px solid transparent;
-  transition: 0.6s ease;  
-  font-size: 25px;
-}
+  ul {
+    float: right;
+    margin-right: 110px;
+    list-style-type: none;
+    margin-top: 25px;
+  }
 
-.body ul li a{
-  text-decoration:none;
-  color: black;
-  padding: 10px 20px;
-  border:1px solid transparent;
-  transition: 0.6s ease;  
-  font-size: 25px;
-  
-}
+  ul li {
+    display: inline-block;
+  }
 
-ul li a:hover{
-  background-color:#fff;
-  color: #00;
+  .main ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    font-size: 25px;
+  }
+
+  .body ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    font-size: 25px;
+  }
+
+  ul li a:hover {
+    background-color: #fff;
+    color: #00;
+  }
+
+  .games {
+    margin-left: 275px;
+    float: left;
+    width: 30.3%;
+    margin-bottom: 16px;
+  }
+
+  .nonstalgialist1 {
+    float: left;
+    background-color: #cccccc;
+    width: 100%;
+    position: static;
+  }
+
+  .footer {
+    float: left;
+    background-color: black;
+    width: 100%;
+    position: static;
+  }
+
+  .footer ul li a {
+    text-decoration: none;
+    background-color: black;
+    transition: 0.6s ease;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+  }
+
+  .footer p {
+    font-size: 70px;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 500px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 100%;
+  }
+
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .nonstalgialist1 {
+    background-color: black;
+  }
+
+  .nonstalgialist1 p {
+    text-align: center;
+    margin-right: 180px;
+    font-size: 40px;
+  }
+
+  .games1 img {
+    max-width: 100%;
+    padding-left: 700px;
+    height: 275px;
+  }
+
+  .games1 p {
+    max-width: 100%;
+    padding-left: 700px;
+    font-size: 30px;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-image: linear-gradient(#c33764, #1d2671);
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 40px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a:hover,
+  .dropdown:hover .dropbtn,
+  .dropbtn:focus {
+    background-color: red;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .show {
+    display: block;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .typewriter p {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid blue; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.15em; /* Adjust as needed */
+    animation: typing 7.5s steps(40, end), blink-caret 0.75s step-end infinite;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+  }
+
+  .tableofcontent {
+    position: sticky;
+    top: 2rem;
+    padding-right: 550px;
+    align-self: start;
+    max-width: 100%;
+    text-decoration: none;
+  }
+
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: blue;
+    }
+  }
 }
 
 /*
-.title{
-  margin-left: 30%;
-  position: relative;  
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { */
 
- /* padding-left:400px;
-  float: left;
-  display: inline-block;
-  
+/*laptops */
+@media screen and (min-width: 810px) and (max-width: 1400px) {
+  body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2F2197042.jpg?v=1623808933941);
+    height: 130vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(https://preview.redd.it/0bb6dqsiab451.gif?s=b0c65596a54a30708da26669da6e79abf3be1680);
+    height: 130vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-repeat: repeat;
+  }
+
+  .tableofcontent ol {
+    style=position: sticky;
+    top: 2rem;
+    padding-left: 500px;
+    align-self: start;
+    max-width: 100%;
+    text-decoration: none;
+  }
+
+  .title h1 {
+    color: #fff;
+    font-size: 70px;
+    position: static;
+    margin-left: 15%;
+    padding-top: 10%;
+  }
+
+  .title p {
+    color: #fff;
+    margin-left: 30%;
+    margin-right: 8%;
+  }
+
+  ul {
+    float: right;
+    margin-right: 110px;
+    list-style-type: none;
+    margin-top: 25px;
+  }
+
+  ul li {
+    display: inline-block;
+  }
+
+  .main ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    font-size: 25px;
+  }
+
+  .body ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    font-size: 25px;
+  }
+
+  ul li a:hover {
+    background-color: #fff;
+    color: #00;
+  }
+
+  .games {
+    margin-left: 100px;
+    margin-right: 100px;
+    float: left;
+    width: 30.3%;
+    margin-bottom: 16px;
+  }
+
+  .nonstalgialist1 {
+    float: left;
+    background-color: #cccccc;
+    width: 100%;
+    position: static;
+  }
+
+  .footer {
+    float: left;
+    background-color: black;
+    width: 100%;
+    position: static;
+  }
+
+  .footer ul li a {
+    text-decoration: none;
+    background-color: black;
+    transition: 0.6s ease;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+  }
+
+  .footer p {
+    font-size: 45px;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 500px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 100%;
+  }
+
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .nonstalgialist1 {
+    background-color: black;
+  }
+
+  .nonstalgialist1 p {
+    text-align: center;
+    margin-right: 180px;
+    font-size: 40px;
+  }
+
+  .games1 img {
+    max-width: 100%;
+    padding-left: 400px;
+    height: 275px;
+  }
+
+  .games1 p {
+    max-width: 100%;
+    padding-left: 400px;
+    font-size: 30px;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-image: linear-gradient(#c33764, #1d2671);
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a:hover,
+  .dropdown:hover .dropbtn,
+  .dropbtn:focus {
+    background-color: red;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .show {
+    display: block;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .typewriter p {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid blue; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.15em; /* Adjust as needed */
+    animation: typing 7.5s steps(40, end), blink-caret 0.75s step-end infinite;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+  }
+
+  .tableofcontent {
+    position: sticky;
+    top: 2rem;
+    padding-right: 550px;
+    align-self: start;
+    max-width: 100%;
+    text-decoration: none;
+  }
+
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: blue;
+    }
+  }
 }
-*/
 
-/*
-p1{ 
-  font-size: 20px;
- 
-  position: fixed;  
+/*mobile Iphone 11*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", sans-serif;
+    color: white;
+    max-width: 100%;
+  }
+
+  body {
+    background-color: black;
+    height: 130vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+  }
+
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(https://cdn.mos.cms.futurecdn.net/XfREyDUvNNapfMnMPV4QMk.jpg);
+    height: 130vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+  }
+
+  .title h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    position: static;
+    margin-left: 6%;
+    padding-top: 50%;
+  }
+
+  .title p {
+    color: #fff;
+    margin-left: 30%;
+    margin-right: 8%;
+    font-size: 30px;
+  }
+
+  ul li a:hover {
+    background-color: #fff;
+    color: #00;
+  }
+
+  .games {
+    margin-left: 30px;
+    float: left;
+    max-width: 100%;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .games1 {
+    text-align: center;
+  }
+
+  .games1 p {
+    height: auto;
+    margin-left: 40px;
+    margin-right: 120px;
+    font-size: 30px;
+  }
+
+  .games1 img {
+    max-width: 100%;
+    height: 235px;
+    margin-right: 15px;
+  }
+
+  .nonstalgialist1 p {
+    float: left;
+    background-color: #cccccc;
+    max-width: 100%;
+    margin-left: 50px;
+    background-color: black;
+  }
+
+  .footer {
+    background-color: black;
+    position: static;
+  }
+
+  .footer ul li a {
+    text-decoration: none;
+    transition: 0.6s ease;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-image: linear-gradient(#c33764, #1d2671);
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 100%;
+  }
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .navbar a:hover,
+  .dropdown:hover .dropbtn,
+  .dropbtn:focus {
+    background-color: red;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .show {
+    display: block;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .typewriter p {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid blue; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.15em; /* Adjust as needed */
+    animation: typing 7.5s steps(40, end), blink-caret 0.75s step-end infinite;
+    display: flex;
+    font-size: 12px;
+    font-family: "Monaco", sans-serif;
+  }
+
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: blue;
+    }
+  }
 }
-*/
 
-.games{
-  margin-left:100px;
-  margin-right:100px;
-  float: left;
-  width: 30.3%;
-  margin-bottom: 16px; 
-}
+/*mobile Iphone 11*/
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: "Courier New", sans-serif;
+    color: white;
+    max-width: 100%;
+  }
 
+  body {
+    background-color: black;
+    height: 130vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+  }
 
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(https://cdn.mos.cms.futurecdn.net/XfREyDUvNNapfMnMPV4QMk.jpg);
+    height: 130vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+  }
 
-.nonstalgialist1{     
-        float: left;     
-        background-color: #cccccc;
-        width:100%;    
-        position: static;       
-}
+  .title h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    position: static;
+    margin-left: 6%;
+    padding-top: 10%;
+  }
 
+  .title p {
+    color: #fff;
+    margin-left: 30%;
+    margin-right: 8%;
+    font-size: 30px;
+  }
 
-.footer{     
-        float: left;     
-        background-color: black;
-        width:100%;    
-        position: static;       
-}
+  ul li a:hover {
+    background-color: #fff;
+    color: #00;
+  }
 
+  .games {
+    margin-left: 30px;
+    float: left;
+    max-width: 100%;
+    margin-bottom: 16px;
+    text-align: center;
+  }
 
-.footer ul li a{
-  text-decoration:none;
-  background-color: black;
-  transition: 0.6s ease;
-  padding: 10px 20px;
-  border:1px solid transparent;
-}
+  .games1 {
+    text-align: center;
+  }
 
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
+  .games1 p {
+    height: auto;
+    margin-left: 40px;
+    margin-right: 120px;
+    font-size: 30px;
+  }
 
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 500px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: -5px;
-  left: 110%;
-}
+  .games1 img {
+    max-width: 100%;
+    height: 250px;
+    margin-left: 40px;
+  }
 
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: 100%;
-  margin-top: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent black transparent transparent;
-}
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
+  .nonstalgialist1 p {
+    float: left;
+    background-color: #cccccc;
+    max-width: 100%;
+    margin-left: 210px;
+    background-color: black;
+  }
 
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-  font-family: Arial, Helvetica, sans-serif;
-}
+  .footer {
+    float: left;
+    background-color: black;
+    width: 100%;
+    position: static;
+  }
 
-.navbar a {
-  float: left;
-  font-size: 30px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+  ul li {
+    display: inline-block;
+  }
 
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
+  .footer ul li a {
+    text-decoration: none;
+    background-color: black;
+    transition: 0.6s ease;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+  }
 
-.dropdown .dropbtn {
-  cursor: pointer;
-  font-size: 30px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
+  .navbar {
+    overflow: hidden;
+    background-image: linear-gradient(#c33764, #1d2671);
+  }
 
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
-  background-color: red;
-}
+  .navbar a {
+    float: left;
+    font-size: 30px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 4px 16px;
+    text-decoration: none;
+  }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
 
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
+  .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
 
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
+  .navbar a:hover,
+  .dropdown:hover .dropbtn,
+  .dropbtn:focus {
+    background-color: red;
+  }
 
-.show {
-  display: block;
-}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
 
-html {
-  scroll-behavior: smooth;
-}
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
 
-.typewriter p {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid blue; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: 
-  typing 7.5s steps(40, end),
-  blink-caret .75s step-end infinite;
-  display: flex;
-  justify-content: center;
-  font-size: 35px;
-}
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
+  .show {
+    display: block;
+  }
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: blue; }
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .typewriter p {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: 0.15em solid blue; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: 0.15em; /* Adjust as needed */
+    animation: typing 7.5s steps(40, end), blink-caret 0.75s step-end infinite;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+  }
+
+  /* The typing effect */
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: blue;
+    }
+  }
 }
