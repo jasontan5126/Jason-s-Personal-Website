@@ -1,146 +1,188 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <head>      
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Jason Tan's Personal Website Thoughts</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Jason Tan's Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <header>
-    
     <div class="navbar">
-          <a href="index.html">Home</a>
-          <a href="journal.html">Journal</a>
-          <a href="projects.html">Projects</a>
-          
-          <div class="dropdown">
-            <button class="dropbtn" onclick="myFunction()">Museum of My Nostalgia
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content" id="myDropdown">
-              <a href="nonstalgia.html">Games</a>
-              <a href="nonstalgia1.html">Technologies</a>
-              <a href="nonstalgia2.html">Kids Shows/Cartoons</a>
-            </div>
-          </div> 
-        <a href="mosaic.html">Mosaic of My Friends </a>
+      <a href="index.html">Home</a>
+      <a href="journal.html">Journal</a>
+      <a href="projects.html">Projects</a>
+
+      <div class="dropdown">
+        <button class="dropbtn" onclick="myFunction()">
+          Museum of My Nostalgia
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content" id="myDropdown">
+          <a href="nonstalgia.html">Games</a>
+          <a href="nonstalgia1.html">Technologies</a>
+          <a href="nonstalgia2.html">Kids Shows/Cartoons</a>
+        </div>
+      </div>
+      <a href="mosaic.html">Mosaic of Friends </a>
     </div>
- 
-    <div class="title">      
-       <h1>  
-         Hi, I'm Jason Tan 
-       </h1><br>    
+
+    <div class="title">
+      <h1>
+        Hi, I'm Jason Tan
+      </h1>
+      <br />
     </div>
     <div class="typewriter" id="myTypewriter">
-      <p style="font-size:2vw;">Welcome to my first personal website made by me</p>
-    </div> 
-  </header>  
-  <body>
-  
-  <!-- about -->
-  <div class = "about">  
-         <br>
-         <img class="icon" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fcircle-cropped%20(1).png?v=1622396419698" style="max-width:100%;height:auto; margin-right:15px " /> 
-    
-  </div>
-  
- 
-    
-    <div class = "about">
-      
-            <br>
-      <p>
-              Dear webviewer,
-              <br>If you are viewing this home page, you will realize that I've created a personal webpage just for myself to officially commemorate 
-                  at least 21 years of living on Earth.<br><br> 21 years of my life has gone quick and there have been important moments that I've encountered 
-                  throughout my life starting from what life was like for me without Iphones up until present where I'm living in the time where 
-                  Iphones exist. To celebrate this, I have worked hard 24/7 after Spring 2021 semester ended to work on my website just as a way to celebrate my 21 years of livelihood experience by
-                  storing all my nonstalgic memories in here so they don't remain lost. Some of the things I've worked hard on was learning HTML, CSS, and JavaScipt and actually using what I've learned so I can
-                  make my web design better. <br><br>
-                  As my 21st birthday comes closer as a way of marking my 21 years as a "human", I feel proud about how I've grown a lot as an individual. I never thought time would go by pretty fast from being once a young child to currently an adult. 
-                  I predict that it'll be the same experience when I'm about to soon become an elder (grandpa) in a few years. I hope you enjoy checking out each portion of my website.
-                  
-      </p>
-    </div> 
-    
-      <script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
-  if (!e.target.matches('.dropbtn')) {
-  var myDropdown = document.getElementById("myDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
-    }
-  }
-}
-        
-        
-var messages=["I am a SBU computer engineering student", "I like to design because it helps me learn to think", "During my free time, I like to think intellectually about life", "I worked hard this summer 24/7 to make it appealing to you", "I hope you enjoy all the features of my web (づ｡◕‿‿◕｡)づ", "Let me know what web parts are good or can be improved"];
-var rank=0;
-
-// Code for Chrome, Safari and Opera
-document.getElementById("myTypewriter").addEventListener("webkitAnimationEnd", changeTxt);
-
-// Standard syntax
-document.getElementById("myTypewriter").addEventListener("animationend", changeTxt);
-
-function changeTxt(e){
-  _p = this.getElementsByTagName("p")[0];
-  _p.style.webkitAnimation = 'none'; // set element animation to none
-   setTimeout(function() { // you surely want a delay before the next message appears
-      _p.innerHTML=messages[rank];
-      var speed =3.5*messages[rank].length/20; // adjust the speed (3.5 is the original speed, 20 is the original string length
-      _p.style.webkitAnimation = 'typing '+speed+'s steps(40, end), blink-caret .75s step-end infinite'; //  switch to the original set of animation      
-      (rank===messages.length-1)?rank=0:rank++; // if you have displayed the last message from the array, go back to the first one, else go to next message
-    }, 1000);
-}
-        
-</script>
-    
-  
- <!-- footer -->
-  
-  <div id = "bottom" class ="footer" style= "text-align: center" >  
-    <ul class="contact">    
-      <p style="font-size:60px; ">
-       Looking forward to connecting with u!!!        
-      </p>
-      <br>
-   
-      <li class="footer-li">
-				<a href="mailto: jasontan5126@yahoo.com" target="_blank">
-					<img class="icon" src="https://images.macrumors.com/t/luK72IwHa4j7hOb_1ltxuO-L-c0=/1200x1200/smart/article-new/2020/04/mail-ios-app-icon.png" style="width: 100px; height: 100px;"  />
-				</a>
-			</li>
-      
-      <li class="footer-li">
-        <a href="https://www.instagram.com/jtan_21centurysightseer/" target="_blank">
-          <img class="icon" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Finstagram-logo-svg-vector-for-print.svg?v=1623621167680" style="width: 100px; height: 100px;" />
-        </a>
-      </li>
-      
-      <li class="footer-li">
-        <a href="https://www.linkedin.com/in/jason-tan-830765177/" target="_blank">
-          <img class="icon" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fsocial-linkedin-circle-512.png?v=1622388542796" style="width: 100px; height: 100px;" />
-        </a>
-      </li>  
-      
-      <li class="footer-li">
-        <a href="https://github.com/jasontan5126" target="_blank">
-          <img class="icon" src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fgithub-mark.png?v=1622564069518" style="width: 100px; height: 100px;" />
-        </a>
-      </li>        
-<br><br><p style="font-size:40px; ">@ 2021 Jason Tan</p>
-    </ul>
+      <p>Welcome to my first personal website made by me</p>
     </div>
-  
+  </header>
+  <body>
+    <!-- about -->
+    <div class="about">
+      <br />
+      <img
+        class="icon"
+        src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fcircle-cropped%20(1).png?v=1622396419698"
+        style="max-width:100%;height:auto; margin-right:15px "
+      />
+    </div>
 
-</body>
-  </html>
+    <div class="about">
+      <br />
+      <p>
+        Dear webviewer,
+        <br /><br />If you are viewing this home page, you will realize that
+        I've created a personal webpage just for myself to officially
+        commemorate at least 21 years of living on Earth.<br /><br />
+        21 years of my life has gone quick and there have been important moments
+        that I've encountered throughout my life starting from what life was
+        like for me without Iphones up until present where I'm living in the
+        time where Iphones exist. To celebrate this, I have worked hard 24/7
+        after Spring 2021 semester ended to work on my website just as a way to
+        celebrate my 21 years of livelihood experience by storing all my
+        nonstalgic memories in here so they don't remain lost. Some of the
+        things I've worked hard on was learning HTML, CSS, and JavaScipt and
+        actually using what I've learned so I can make my web design better.
+        <br /><br />
+        As my 21st birthday comes closer as a way of marking my 21 years as a
+        "human", I feel proud about how I've grown a lot as an individual. I
+        never thought time would go by pretty fast from being once a young child
+        to currently an adult. I predict that it'll be the same experience when
+        I'm about to soon become an elder (grandpa) in a few years. I hope you
+        enjoy checking out each portion of my website.
+      </p>
+    </div>
+
+    <script>
+      /* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(e) {
+        if (!e.target.matches(".dropbtn")) {
+          var myDropdown = document.getElementById("myDropdown");
+          if (myDropdown.classList.contains("show")) {
+            myDropdown.classList.remove("show");
+          }
+        }
+      };
+
+      var messages = [
+        "I am a SBU computer engineering student",
+        "I like to design because it helps me learn to think",
+        "During my free time, I like to think intellectually about life",
+        "I worked hard this summer 24/7 to make it appealing to you",
+        "I hope you enjoy all the features of my web (づ｡◕‿‿◕｡)づ",
+        "Let me know what web parts are good or can be improved"
+      ];
+      var rank = 0;
+
+      // Code for Chrome, Safari and Opera
+      document
+        .getElementById("myTypewriter")
+        .addEventListener("webkitAnimationEnd", changeTxt);
+
+      // Standard syntax
+      document
+        .getElementById("myTypewriter")
+        .addEventListener("animationend", changeTxt);
+
+      function changeTxt(e) {
+        _p = this.getElementsByTagName("p")[0];
+        _p.style.webkitAnimation = "none"; // set element animation to none
+        setTimeout(function() {
+          // you surely want a delay before the next message appears
+          _p.innerHTML = messages[rank];
+          var speed = (3.5 * messages[rank].length) / 20; // adjust the speed (3.5 is the original speed, 20 is the original string length
+          _p.style.webkitAnimation =
+            "typing " +
+            speed +
+            "s steps(40, end), blink-caret .75s step-end infinite"; //  switch to the original set of animation
+          rank === messages.length - 1 ? (rank = 0) : rank++; // if you have displayed the last message from the array, go back to the first one, else go to next message
+        }, 1000);
+      }
+    </script>
+
+    <!-- footer -->
+
+    <div id="bottom" class="footer" style="text-align: center">
+      <ul class="contact">
+        <p>
+          Looking forward to connecting with u!!!
+        </p>
+        <br />
+
+        <li class="footer-li">
+          <a href="mailto: jasontan5126@yahoo.com" target="_blank">
+            <img
+              class="icon"
+              src="https://images.macrumors.com/t/luK72IwHa4j7hOb_1ltxuO-L-c0=/1200x1200/smart/article-new/2020/04/mail-ios-app-icon.png"
+              style="width: 100px; height: 100px;"
+            />
+          </a>
+        </li>
+
+        <li class="footer-li">
+          <a
+            href="https://www.instagram.com/jtan_21centurysightseer/"
+            target="_blank"
+          >
+            <img
+              class="icon"
+              src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Finstagram-logo-svg-vector-for-print.svg?v=1623621167680"
+              style="width: 100px; height: 100px;"
+            />
+          </a>
+        </li>
+
+        <li class="footer-li">
+          <a
+            href="https://www.linkedin.com/in/jason-tan-830765177/"
+            target="_blank"
+          >
+            <img
+              class="icon"
+              src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fsocial-linkedin-circle-512.png?v=1622388542796"
+              style="width: 100px; height: 100px;"
+            />
+          </a>
+        </li>
+
+        <li class="footer-li">
+          <a href="https://github.com/jasontan5126" target="_blank">
+            <img
+              class="icon"
+              src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fgithub-mark.png?v=1622564069518"
+              style="width: 100px; height: 100px;"
+            />
+          </a>
+        </li>
+        <br /><br />
+        <p>@ 2021 Jason Tan</p>
+      </ul>
+    </div>
+  </body>
+</html>
