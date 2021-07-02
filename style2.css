@@ -408,7 +408,7 @@ My header title
     animation: typing 7.5s steps(40, end), blink-caret 0.75s step-end infinite;
     display: flex;
     justify-content: center;
-    font-size: 25px;
+    font-size: 2vw;
   }
 
   /* The typing effect */
@@ -432,6 +432,10 @@ My header title
     }
   }
 }
+
+
+
+
 
 /*mobile Iphone 11*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
