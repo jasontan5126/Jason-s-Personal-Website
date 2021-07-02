@@ -343,7 +343,7 @@ body {
 
   .title p {
     color: #fff;
-    font-size: 30px;
+    font-size: 2vw;
     position: static;
     padding-top: 3%;
     margin-left: 70px;
@@ -376,10 +376,29 @@ body {
   }
 
   iframe {
-    width: 650px;
+    width: 100%;
     height: 500px;
     text-align: center;
   }
+  
+  .project6 img {
+    width: 100%;
+  height: auto;
+  }
+  
+  .project6 h1 {
+    margin-right: 300px;
+    margin-left: 300px;
+    text-align: center;
+  }
+  
+  .project6 p {
+    font-size: 20px;
+    margin-right: 300px;
+    margin-left: 300px;
+    text-align: center;
+  }
+  
 
   .project5 p {
     font-size: 20px;
@@ -428,9 +447,9 @@ body {
   }
 
   .waveforms img {
-    width: 450px;
+    width: 90%;
     height: auto;
-    margin-left: 34%;
+    padding-left: 5%;
   }
 
   .about {
