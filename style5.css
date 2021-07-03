@@ -27,7 +27,7 @@ For nonstalgia.html
 
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(https://i.kym-cdn.com/entries/icons/original/000/027/475/Screen_Shot_2018-10-25_at_11.02.15_AM.png);
+      url(https://media.istockphoto.com/vectors/retro-gaming-maze-game-background-vector-id1271615792?b=1&k=6&m=1271615792&s=612x612&w=0&h=SeFob03-ph1KbjdImOAyeigmClJcvxDMXMevCwhcWZo=);
     height: 130vh;
     background-size: cover;
     background-position: center;
@@ -219,7 +219,7 @@ For nonstalgia.html
 
   .navbar a {
     float: left;
-    font-size: 40px;
+    font-size: 45px;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -233,7 +233,7 @@ For nonstalgia.html
 
   .dropdown .dropbtn {
     cursor: pointer;
-    font-size: 40px;
+    font-size: 45px;
     border: none;
     outline: none;
     color: white;
@@ -318,7 +318,7 @@ For nonstalgia.html
 
 /*Seem to work for laptops 
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { */
-@media screen and (min-width: 510px) and (max-width: 1400px) {
+@media screen and (min-width: 810px) and (max-width: 1499px) {
   body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2F2716419.jpg?v=1623806135332);
@@ -343,7 +343,7 @@ For nonstalgia.html
 
   .title h1 {
     color: #fff;
-    font-size: 70px;
+    font-size: 60px;
     position: static;
     margin-left: 15%;
     padding-top: 10%;
@@ -365,14 +365,33 @@ For nonstalgia.html
   ul li {
     display: inline-block;
   }
-
+  
+  .symbols h2{
+    top: 2rem;
+    align-self: start;
+    margin-left: 490px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .symbols p{
+    top: 2rem;
+    align-self: start;
+    margin-left: 490px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
   .tableofcontent ol {
     position: sticky;
     top: 2rem;
     align-self: start;
-    margin-left: 450px;
+    margin-left: 490px;
     text-decoration: none;
+    font-size: 20px;
   }
+
+  
 
   .main ul li a {
     text-decoration: none;
@@ -386,7 +405,8 @@ For nonstalgia.html
   .nonstalgialist p {
     text-align: center;
     margin-right: 100px;
-    font-size: 25px;
+    font-size: 35px;
+    
   }
 
   .games p {
@@ -866,6 +886,7 @@ For nonstalgia.html
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    min-height: 800px;
   }
 
   .title h1 {
@@ -877,11 +898,22 @@ For nonstalgia.html
     padding-top: 10%;
   }
 
-  .games {
+  
+  
+  .games img{
+    max-width: 100%;   
+    margin-left: 190px;
     text-align: center;
-    float: left;
-    width: 100%;
-    margin-bottom: 16px;
+    height: 200px;
+  }
+  
+  .games p{
+    height: auto;
+    margin-left: 40px;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 120px;
+    text-align: center;
   }
 
   .games1 p {
@@ -893,7 +925,9 @@ For nonstalgia.html
 
   .games1 img {
     max-width: 100%;   
-    margin-left: 40px;
+    margin-left: 190px;
+    text-align: center;
+    height: 200px;
   }
   
   .nonstalgialist1 p{
@@ -1033,6 +1067,9 @@ For nonstalgia.html
     }
     50% {
       border-color: blue;
+    }
+  }
+} border-color: blue;
     }
   }
 }
