@@ -46,14 +46,30 @@ For nonstalgia1.html
     margin-left: 30%;
     margin-right: 8%;
   }
+  
+  .symbols h2{
+    top: 2rem;
+    align-self: start;
+    margin-left: 735px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .symbols p{
+    top: 2rem;
+    align-self: start;
+    margin-left: 735px;
+    text-decoration: none;
+    font-size: 20px;
+  }
 
-  .tableofcontent {
+  .tableofcontent ol {
     position: sticky;
     top: 2rem;
-    padding-right: 550px;
     align-self: start;
-    max-width: 100%;
+    margin-left: 735px;
     text-decoration: none;
+    font-size: 25px;
   }
 
   .nonstalgialist p {
