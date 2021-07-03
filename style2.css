@@ -21,7 +21,7 @@ Default style for my page
 }
 
 /*For destop */
-@media screen and (min-width: 1500px) and (max-width: 2000px) {
+@media screen and (min-width: 1100px) and (max-width: 2000px) {
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fmatt-noble-BpTMNN9JSmQ-unsplash.jpg?v=1623811585897);
@@ -135,7 +135,7 @@ My header title
 
   .navbar a {
     float: left;
-    font-size: 40px;
+    font-size: 45px;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -149,7 +149,7 @@ My header title
 
   .dropdown .dropbtn {
     cursor: pointer;
-    font-size: 40px;
+    font-size: 45px;
     border: none;
     outline: none;
     color: white;
