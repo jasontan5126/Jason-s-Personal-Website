@@ -34,7 +34,6 @@ For nonstalgia2.html
   }
 
   .tableofcontent ol {
-    position: sticky;
     top: 2rem;
     padding-left: 750px;
     align-self: start;
@@ -187,7 +186,7 @@ For nonstalgia2.html
 
   .navbar a {
     float: left;
-    font-size: 40px;
+    font-size: 45px;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -201,7 +200,7 @@ For nonstalgia2.html
 
   .dropdown .dropbtn {
     cursor: pointer;
-    font-size: 40px;
+    font-size: 45px;
     border: none;
     outline: none;
     color: white;
@@ -260,7 +259,7 @@ For nonstalgia2.html
   }
 
   .tableofcontent {
-    position: sticky;
+   
     top: 2rem;
     padding-right: 550px;
     align-self: start;
@@ -299,7 +298,7 @@ For nonstalgia2.html
   and (-webkit-min-device-pixel-ratio: 1) { */
 
 /*laptops */
-@media screen and (min-width: 510px) and (max-width: 1400px) {
+@media screen and (min-width: 810px) and (max-width: 1499px) {
   body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2F2197042.jpg?v=1623808933941);
@@ -322,14 +321,28 @@ For nonstalgia2.html
   }
 
   .tableofcontent ol {
-    style=position: sticky;
+    
     top: 2rem;
     padding-left: 500px;
-    align-self: start;
-    max-width: 100%;
-    text-decoration: none;
+    
   }
-
+  
+  .symbols h2{
+    top: 2rem;
+    align-self: start;
+    margin-left: 490px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .symbols p{
+    top: 2rem;
+    align-self: start;
+    margin-left: 490px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
   .title h1 {
     color: #fff;
     font-size: 70px;
@@ -548,12 +561,13 @@ For nonstalgia2.html
   }
 
   .tableofcontent {
-    position: sticky;
+    
     top: 2rem;
     padding-right: 550px;
     align-self: start;
     max-width: 100%;
     text-decoration: none;
+    font-size: 20px;
   }
 
   /* The typing effect */
@@ -618,7 +632,7 @@ For nonstalgia2.html
     font-size: 25px;
     position: static;
     margin-left: 6%;
-    padding-top: 50%;
+    padding-top: 40%;
   }
 
   .title p {
@@ -654,25 +668,32 @@ For nonstalgia2.html
 
   .games1 img {
     max-width: 100%;
-    height: 235px;
-    margin-right: 15px;
+    height: 250px;
+    margin-left: 40px;
   }
 
   .nonstalgialist1 p {
     float: left;
     background-color: #cccccc;
     max-width: 100%;
-    margin-left: 50px;
+    margin-left: 210px;
     background-color: black;
   }
 
   .footer {
+    float: left;
     background-color: black;
+    width: 100%;
     position: static;
+  }
+
+  ul li {
+    display: inline-block;
   }
 
   .footer ul li a {
     text-decoration: none;
+    background-color: black;
     transition: 0.6s ease;
     padding: 10px 20px;
     border: 1px solid transparent;
@@ -687,10 +708,10 @@ For nonstalgia2.html
     float: left;
     font-size: 30px;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
     width: 100%;
+    text-align: center;
+    padding: 4px 16px;
+    text-decoration: none;
   }
 
   .dropdown {
@@ -754,8 +775,8 @@ For nonstalgia2.html
     letter-spacing: 0.15em; /* Adjust as needed */
     animation: typing 7.5s steps(40, end), blink-caret 0.75s step-end infinite;
     display: flex;
-    font-size: 12px;
-    font-family: "Monaco", sans-serif;
+    justify-content: center;
+    font-size: 13px;
   }
 
   /* The typing effect */
@@ -807,6 +828,7 @@ For nonstalgia2.html
     background-position: center;
     background-repeat: no-repeat;
     max-width: 100%;
+    min-height: 800px;
   }
 
   .title h1 {
@@ -815,7 +837,7 @@ For nonstalgia2.html
     font-size: 40px;
     position: static;
     margin-left: 6%;
-    padding-top: 10%;
+    padding-top: 20%;
   }
 
   .title p {
