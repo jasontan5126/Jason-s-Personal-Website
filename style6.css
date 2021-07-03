@@ -197,7 +197,7 @@ For nonstalgia1.html
 
   .navbar a {
     float: left;
-    font-size: 40px;
+    font-size: 45px;
     color: white;
     text-align: center;
 
@@ -222,7 +222,7 @@ For nonstalgia1.html
 
   .dropdown .dropbtn {
     cursor: pointer;
-    font-size: 40px;
+    font-size: 45px;
     border: none;
     outline: none;
     color: white;
@@ -309,7 +309,7 @@ For nonstalgia1.html
   and (-webkit-min-device-pixel-ratio: 1) { */
 
 /*laptops */
-@media screen and (min-width: 510px) and (max-width: 1400px) {
+@media screen and (min-width: 810px) and (max-width: 1499px) {
   body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fwindows_xp_bliss-wide.jpg?v=1623808527703);
@@ -880,7 +880,7 @@ For nonstalgia1.html
     height: 130vh;
     background-size: cover;
     background-position: center;
-    min-height: 500px;
+    min-height: 800px;
     background-repeat: no-repeat;
   }
 
@@ -889,7 +889,7 @@ For nonstalgia1.html
     font-size: 25px;
     position: static;
     margin-left: 30%;
-    padding-top: 10%;
+    padding-top: 20%;
   }
 
   .title p {
