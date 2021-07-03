@@ -128,6 +128,31 @@ For nonstalgia2.html
     display: inline-block;
     border-bottom: 1px dotted black;
   }
+  
+  .symbols h2{
+    top: 2rem;
+    align-self: start;
+    margin-left: 755px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .symbols p{
+    top: 2rem;
+    align-self: start;
+    margin-left: 755px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .tableofcontent ol {
+    position: sticky;
+    top: 2rem;
+    align-self: start;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 25px;
+  }
 
   .tooltip .tooltiptext {
     visibility: hidden;
