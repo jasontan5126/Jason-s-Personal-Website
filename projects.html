@@ -51,7 +51,12 @@
           <strong>Description: </strong>
           Implemented Using <strong>HTML, CSS, and Javascript </strong> which reflects on everything I've experienced over
           at least the past 21 years ith my own eyes. This was implemented by me from <strong>May 18, 2021 to July 2, 2021</strong> after
-          self-learning HTML, CSS, and Javascript with a lot of time commitment <strong>(Total: 210 hours) </strong> and rarely any free time for me this half of summer
+          self-learning HTML, CSS, and Javascript with a lot of time commitment <strong>(Total: 227 hours) </strong> and rarely any free time for me this half of summer<br>
+          
+          <br><strong>Takeaway: </strong> I think making my own website is probably the best idea that I can think off because my mind cannot retain all of my memories in one mindset. By keeping everything in my own website, it is my way of preventing all my memories from being lost in time. 
+          Also I found implementing my website to be fun because I have the freedom to add my own features to make it look interesting to web users. I think one of the most interesting part is when I made a mosaic of everyone I met throughout my life. One of the most challenging parts of making a
+          website is making it look good for all devices since my website is responsible on its formatting and features when used on different devices.
+          
           
         </p>
         <br /><br />
@@ -131,36 +136,7 @@
         </p>
         <br />
 
-        <div class="waveforms" style="text-align:center;">
-          <button
-            class="w3-button w3-black w3-display-left"
-            onclick="plusDivs(-1)"
-            style="font-size: 30px; color: black;"
-          >
-            &#10094;
-          </button>
-          <button
-            class="w3-button w3-black w3-display-right"
-            onclick="plusDivs(1)"
-            style="font-size: 30px;  color: black;"
-          >
-            &#10095;
-          </button>
-          <img
-            class="mySlides"
-            src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fwaveforms.PNG?v=1622685086162"
-          />
-          <img
-            class="mySlides"
-            src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fwaveforms_zoomed.PNG?v=1622685132884"
-          />
-          <p>
-            <strong>Figure(s): </strong> Output waveforms for the Pipelined SIMD
-            multimedia unit where one figure is zoomed in and one figure is
-            zoomed out
-          </p>
-          <br />
-        </div>
+        
       </div>
       <br />
       <hr />
@@ -360,6 +336,26 @@
         <br />
       </div>
     </div>
+    
+    
+    <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+    
 
     <!-- footer -->
     <div id="bottom" class="footer">
@@ -418,46 +414,5 @@
       </ul>
     </div>
 
-    <script>
-      var slideIndex = 1;
-      showDivs(slideIndex);
-
-      function plusDivs(n) {
-        showDivs((slideIndex += n));
-      }
-
-      function showDivs(n) {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        if (n > x.length) {
-          slideIndex = 1;
-        }
-        if (n < 1) {
-          slideIndex = x.length;
-        }
-        for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";
-        }
-        x[slideIndex - 1].style.display = "block";
-      }
-    </script>
-
-    <script>
-      /* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-      function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-      }
-
-      // Close the dropdown if the user clicks outside of it
-      window.onclick = function(e) {
-        if (!e.target.matches(".dropbtn")) {
-          var myDropdown = document.getElementById("myDropdown");
-          if (myDropdown.classList.contains("show")) {
-            myDropdown.classList.remove("show");
-          }
-        }
-      };
-    </script>
   </body>
 </html>
