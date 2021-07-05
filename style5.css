@@ -647,9 +647,6 @@ For nonstalgia.html
   }
 }
 
-
-
-
 /*mobile Iphone 11*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   * {
@@ -720,8 +717,8 @@ For nonstalgia.html
     background-color: #fff;
     color: #00;
   }
-  
-  .nonstalgialist p{
+
+  .nonstalgialist p {
     font-size: 30px;
   }
 
@@ -883,8 +880,6 @@ For nonstalgia.html
   }
 }
 
-
-
 /*mobile Iphone 11 landscape*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   * {
@@ -952,8 +947,8 @@ For nonstalgia.html
     text-align: center;
     height: 200px;
   }
-  
-  .nonstalgialist p{
+
+  .nonstalgialist p {
     font-size: 30px;
   }
 
