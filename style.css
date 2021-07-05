@@ -6,10 +6,6 @@ For index.html
 To set the body background after the title and footer
 */
 
-
-
-
-
 * {
   margin: 0;
   padding: 0;
@@ -33,24 +29,24 @@ Default style for my page
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
-  
+
   body {
-  background-size: cover;
-  background-position: center;
-  min-height: 500px;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(https://i.pinimg.com/originals/ce/2b/78/ce2b78a05838ef311c0868bb2fca0494.gif);
-}
-  
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(https://i.pinimg.com/originals/ce/2b/78/ce2b78a05838ef311c0868bb2fca0494.gif);
+  }
+
   img.sticky {
     text-align: center;
     top: 0;
     width: 200px;
-     margin-left: 44%;
+    margin-left: 44%;
     margin-right: 8%;
-}
+  }
 
   /*
 My header title
@@ -230,9 +226,6 @@ My header title
   }
 }
 
-
-
-
 /*Laptops */
 
 @media screen and (min-width: 520px) and (max-width: 1400px) {
@@ -270,14 +263,13 @@ My header p
     margin-left: 30%;
     margin-right: 8%;
   }
-  
+
   img.sticky {
-    
     top: 0;
     width: 200px;
-     margin-left: 44%;
+    margin-left: 44%;
     margin-right: 8%;
-}
+  }
 
   ul {
     float: right;
@@ -434,8 +426,6 @@ My header p
   }
 }
 
-
-
 /*mobile Iphone 11*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   * {
@@ -443,14 +433,14 @@ My header p
     padding: 0;
     color: white;
   }
-  
+
   img.sticky {
     text-align: center;
     top: 0;
     width: 200px;
-     margin-left: 40%;
+    margin-left: 40%;
     margin-right: 8%;
-}
+  }
 
   /*
 The header or title at top of my page
@@ -464,15 +454,15 @@ The header or title at top of my page
     min-height: 700px;
     background-repeat: no-repeat;
   }
-  
+
   body {
-  background-size: cover;
-  background-position: center;
-  min-height: 500px;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(#cc2b5e, #753a88)
-}
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#cc2b5e, #753a88);
+  }
 
   /*
 My header title
@@ -484,7 +474,6 @@ My header title
     margin-left: 20%;
     padding-top: 10%;
   }
-
   /*
 My header title
 */
@@ -522,7 +511,7 @@ My header title
   }
 
   .about {
-    margin-left: 220px;
+    margin-left: 50px;
     float: left;
     max-width: 100%;
     margin-bottom: 16px;
@@ -659,11 +648,11 @@ The header or title at top of my page
 */
 
   img.sticky {
-  top: 0;
-  width: 200px;
+    top: 0;
+    width: 200px;
     padding-left: 110px;
-}
-  
+  }
+
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fblur-blue-gradient-cool-background-sp-2560x1440.jpg?v=1625317286334);
@@ -673,15 +662,15 @@ The header or title at top of my page
     min-height: 500px;
     background-repeat: no-repeat;
   }
-  
+
   body {
-  background-size: cover;
-  background-position: center;
-  min-height: 500px;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(#cc2b5e, #753a88)
-}
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(#cc2b5e, #753a88);
+  }
 
   /*
 My header title
@@ -697,7 +686,6 @@ My header title
   /*
 My header title
 */
-
 
   ul {
     float: right;
