@@ -32,8 +32,8 @@ For nonstalgia2.html
     background-attachment: fixed;
     background-repeat: repeat;
   }
-  
-  iframe{
+
+  iframe {
     margin-left: 300px;
   }
 
@@ -58,6 +58,14 @@ For nonstalgia2.html
     color: #fff;
     margin-left: 30%;
     margin-right: 8%;
+  }
+  
+  .intro {
+    margin-left: 100px;
+    margin-right: 100px;
+    float: left;
+    width: 30.3%;
+    margin-bottom: 16px;
   }
 
   ul {
@@ -132,16 +140,16 @@ For nonstalgia2.html
     display: inline-block;
     border-bottom: 1px dotted black;
   }
-  
-  .symbols h2{
+
+  .symbols h2 {
     top: 2rem;
     align-self: start;
     margin-left: 755px;
     text-decoration: none;
     font-size: 20px;
   }
-  
-  .symbols p{
+
+  .symbols p {
     top: 2rem;
     align-self: start;
     margin-left: 755px;
@@ -288,7 +296,6 @@ For nonstalgia2.html
   }
 
   .tableofcontent {
-   
     top: 2rem;
     padding-right: 550px;
     align-self: start;
@@ -318,8 +325,6 @@ For nonstalgia2.html
   }
 }
 
-
-
 /*
 @media screen 
   and (min-device-width: 1200px) 
@@ -337,8 +342,8 @@ For nonstalgia2.html
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
-  
-  iframe{
+
+  iframe {
     margin-left: 70px;
   }
 
@@ -354,28 +359,26 @@ For nonstalgia2.html
   }
 
   .tableofcontent ol {
-    
     top: 2rem;
     padding-left: 500px;
-    
   }
-  
-  .symbols h2{
+
+  .symbols h2 {
     top: 2rem;
     align-self: start;
     margin-left: 490px;
     text-decoration: none;
     font-size: 20px;
   }
-  
-  .symbols p{
+
+  .symbols p {
     top: 2rem;
     align-self: start;
     margin-left: 490px;
     text-decoration: none;
     font-size: 20px;
   }
-  
+
   .title h1 {
     color: #fff;
     font-size: 70px;
@@ -431,7 +434,7 @@ For nonstalgia2.html
     width: 30.3%;
     margin-bottom: 16px;
   }
-  
+
   .intro {
     margin-left: 100px;
     margin-right: 100px;
@@ -602,7 +605,6 @@ For nonstalgia2.html
   }
 
   .tableofcontent {
-    
     top: 2rem;
     padding-right: 550px;
     align-self: start;
@@ -633,11 +635,6 @@ For nonstalgia2.html
   }
 }
 
-
-
-
-
-
 /*mobile Iphone 11*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   * {
@@ -665,10 +662,8 @@ For nonstalgia2.html
     background-position: center;
     background-repeat: no-repeat;
     max-width: 100%;
-     min-height: 800px;
+    min-height: 800px;
   }
-  
-  
 
   .title h1 {
     color: #fff;
@@ -720,8 +715,9 @@ For nonstalgia2.html
     float: left;
     background-color: #cccccc;
     max-width: 100%;
-    margin-left: 210px;
+    margin-left: 90px;
     background-color: black;
+    font-size: 16px;
   }
 
   .footer {
@@ -863,8 +859,8 @@ For nonstalgia2.html
     background-repeat: no-repeat;
     max-width: 100%;
   }
-  
-  iframe{
+
+  iframe {
     margin-left: 200px;
   }
 
@@ -929,8 +925,9 @@ For nonstalgia2.html
     float: left;
     background-color: #cccccc;
     max-width: 100%;
-    margin-left: 210px;
+    margin-left: 150px;
     background-color: black;
+    font-size: 30px;
   }
 
   .footer {
