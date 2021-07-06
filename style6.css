@@ -50,26 +50,26 @@ For nonstalgia1.html
   .symbols h2 {
     top: 2rem;
     align-self: start;
-    margin-left: 735px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
+    margin-left: 705px;
   }
 
   .symbols p {
     top: 2rem;
     align-self: start;
-    margin-left: 735px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
+    margin-left: 705px;
   }
 
   .tableofcontent ol {
     position: sticky;
     top: 2rem;
-    align-self: start;
-    margin-left: 735px;
+    align-self: start;   
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
+    margin-left: 705px;
   }
 
   .nonstalgialist p {
