@@ -7,7 +7,7 @@ To set the body background after the title and footer
 */
 
 body {
-  background-color: #444f5e;
+  background-image: linear-gradient(#000428, #004e92)
 }
 
 /*
@@ -43,6 +43,7 @@ My header title
     margin-left: 30%;
     padding-top: 10%;
   }
+
 
   ul {
     float: right;
@@ -81,6 +82,13 @@ My header title
     font-size: 3vw;
     margin-left: 300px;
     margin-right: 300px;
+  }
+  
+  .myThought img {
+    width: 100%;
+    height: 400px;
+    margin-right: 15px;
+    padding-top: 15px;
   }
   
   .myThought ol{
@@ -310,6 +318,25 @@ My header title
     font-size: 2vw;
     margin-left: 420px;
     margin-right: 300px;
+  }
+  
+  .myThought img {
+    width: 100%;
+    height: 400px;
+    margin-right: 15px;
+    padding-top: 15px;
+    float: left;
+  }
+  
+  .games {
+    text-align: center;    
+    width: 100vw;
+    margin-bottom: 16px;
+  }
+
+
+  .games img {
+    width: 30%;    
   }
 
   .footer {
@@ -549,6 +576,16 @@ My header title
     font-size: 4vw;
     margin-left: 100px;
   }
+  
+  .games {
+    text-align: center;    
+    margin-bottom: 16px;
+  }
+
+
+  .games img {
+    width: 70%;    
+  }
 
 
   .footer {
@@ -560,13 +597,14 @@ My header title
 
   .footer p {
     max-width: 100%;
-    padding-left: 17px;
+    padding-left: 25px;
   }
 
   .footer ul li a {
     text-decoration: none;
     background-color: black;
     transition: 0.6s ease;
+    padding-left: 25px;
     max-width: 100%;
   }
 
