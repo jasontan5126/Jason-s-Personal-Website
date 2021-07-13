@@ -20,7 +20,7 @@ body {
     height: 120vh;
     background-size: cover;
     background-position: center;
-    min-height: 650px;
+    min-height: 850px;
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
@@ -219,7 +219,7 @@ The header or title at top of my page
     height: 120vh;
     background-size: cover;
     background-position: center;
-    min-height: 650px;
+    min-height: 850px;
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
@@ -621,9 +621,9 @@ The header or title at top of my page
 
   .title h1 {
     color: #fff;
-    font-size: 20px;
+    font-size: 22px;
     position: static;
-    margin-left: 20%;
+    margin-left: 15%;
     padding-top: 40%;
   }
 
@@ -774,7 +774,7 @@ The header or title at top of my page
     animation: typing 7.5s steps(40, end), blink-caret 0.75s step-end infinite;
     display: flex;
     justify-content: center;
-    font-size: 35px;
+    font-size: 45px;
   }
 
   /* The typing effect */
