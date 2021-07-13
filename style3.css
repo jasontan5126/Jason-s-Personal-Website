@@ -17,13 +17,13 @@ body {
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(https://i.pinimg.com/originals/c4/77/71/c477714abda92f61a542b999e80acd34.jpg);
-    height: 120vh;
     background-size: cover;
     background-position: center;
     min-height: 850px;
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
+  
   b {
     font-size: 40px;
     text-align: center;
@@ -32,10 +32,10 @@ body {
 
   .title h1 {
     color: #FFC733;
-    font-size: 50px;
+    font-size: 55px;
     position: static;
-    margin-left: 30%;
-    padding-top: 10%;
+    margin-left: 25%;
+    padding-top: 5%;
   }
 
   .title p {
