@@ -43,6 +43,11 @@ My header title
     margin-left: 30%;
     padding-top: 10%;
   }
+  
+  .body h2{
+    text-align: center;
+    font-size: 30px;
+  }
 
   ul {
     float: right;
@@ -250,6 +255,11 @@ My header title
     position: static;
     margin-left: 20%;
     padding-top: 10%;
+  }
+  
+  .body h2{
+    text-align: center;
+    font-size: 30px;
   }
 
   ul {
@@ -467,6 +477,11 @@ My header title
     margin-left: 15%;
     padding-top: 50%;
   }
+  
+  .body h2{
+    text-align: center;
+    font-size: 30px;
+  }
 
   /*
 My header title
@@ -670,6 +685,11 @@ My header title
     color: #fff;
     margin-left: 10%;
     margin-right: 8%;
+  }
+  
+  .body h2{
+    text-align: center;
+    font-size: 30px;
   }
 
   ul {
