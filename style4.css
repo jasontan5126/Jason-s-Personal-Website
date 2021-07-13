@@ -41,7 +41,7 @@ My header title
     font-size: 60px;
     position: static;
     margin-left: 30%;
-    padding-top: 10%;
+    padding-top: 20%;
   }
 
   ul {
@@ -78,7 +78,7 @@ My header title
   }
   
   .myThought p{
-    font-size: 3vw;
+    font-size: 2vw;
     margin-left: 300px;
     margin-right: 300px;
   }
