@@ -25,10 +25,9 @@ For nonstalgia2.html
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(https://preview.redd.it/0bb6dqsiab451.gif?s=b0c65596a54a30708da26669da6e79abf3be1680);
-    height: 130vh;
     background-size: cover;
     background-position: center;
-    min-height: 500px;
+    min-height: 900px;
     background-attachment: fixed;
     background-repeat: repeat;
   }
