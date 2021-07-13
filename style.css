@@ -519,6 +519,7 @@ My header title
 
   .about p {
     background-color: black;
+    font-size: 14px; 
   }
 
   .about img {
@@ -721,7 +722,7 @@ My header title
   }
 
   .about p {
-    background-color: black;
+    background-color: black; 
   }
 
   .about img {
