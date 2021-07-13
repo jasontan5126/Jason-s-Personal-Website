@@ -38,10 +38,10 @@ My header title
 */
   .title h1 {
     color: #fff;
-    font-size: 60px;
+    font-size: 50px;
     position: static;
-    margin-left: 30%;
-    padding-top: 10%;
+    margin-left: 18%;
+    padding-top: 20%;
   }
 
 
@@ -79,7 +79,7 @@ My header title
   }
   
   .myThought p{
-    font-size: 3vw;
+    font-size: 2vw;
     margin-left: 300px;
     margin-right: 300px;
   }
@@ -95,6 +95,17 @@ My header title
     font-size: 3vw;
     margin-left: 420px;
     margin-right: 300px;
+  }
+  
+  .games {
+    text-align: center;    
+    width: 100vw;
+    margin-bottom: 16px;
+  }
+
+
+  .games img {
+    width: 30%;    
   }
 
 
