@@ -305,6 +305,7 @@ My header p
 
   .about p {
     background-color: black;
+    font-size: 19px;
   }
 
   .about img {
