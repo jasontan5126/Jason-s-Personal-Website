@@ -22,10 +22,9 @@ Default style for my page
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(https://media.tenor.com/images/954eb6bc4868f7a7fd4db64bd61f6a69/tenor.gif);
-    height: 120vh;
     background-size: cover;
     background-position: center;
-    min-height: 500px;
+    min-height: 900px;
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
