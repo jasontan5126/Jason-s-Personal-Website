@@ -416,12 +416,12 @@ The header or title at top of my page
     height: 120vh;
     background-size: cover;
     background-position: center;
-    min-height: 600px;
+    min-height: 800px;
     background-repeat: no-repeat;
   }
 
   .title h1 {
-    color: #fff;
+    color: #FFC733;
     font-size: 30px;
     position: static;
     margin-left: 20%;
@@ -620,7 +620,7 @@ The header or title at top of my page
   }
 
   .title h1 {
-    color: #fff;
+    color: #FFC733;
     font-size: 22px;
     position: static;
     margin-left: 15%;
