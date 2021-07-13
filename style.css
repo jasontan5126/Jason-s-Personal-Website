@@ -679,7 +679,7 @@ My header title
     color: #fff;
     font-size: 30px;
     position: static;
-    margin-left: 20%;
+    margin-left: 14%;
     padding-top: 40%;
   }
 
@@ -820,7 +820,7 @@ My header title
     display: flex;
     justify-content: center;
     font-family: "Arial", sans-serif;
-    font-size: 8px;
+    font-size: 9px;
   }
 
   /* The typing effect */
