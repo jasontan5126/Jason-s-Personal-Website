@@ -742,7 +742,8 @@ My header title
   }
 
   .footer p {
-    font-size: 12px;
+    font-size: 20px;
+    padding-left: 30px;
   }
 
   .navbar {
