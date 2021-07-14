@@ -50,7 +50,11 @@ My header title
   }
   
   .body1 p{
-    padding-left: 440px;
+    padding-left: 640px;
+  }
+  
+  .body2 p{
+    padding-right: 580px;
   }
 
   ul {
@@ -268,6 +272,10 @@ My header title
   
   .body1 p{
     padding-left: 440px;
+  }
+  
+  .body2 p{
+    padding-right: 410px;
   }
 
   ul {
@@ -490,6 +498,10 @@ My header title
     text-align: center;
     font-size: 30px;
   }
+  
+  .body2 p{
+    text-align: justify;
+  }
 
   /*
 My header title
@@ -704,6 +716,8 @@ My header title
   .body1 p{
     padding-left: 140px;
   }
+  
+   
 
   ul {
     float: right;
