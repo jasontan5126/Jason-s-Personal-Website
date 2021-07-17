@@ -641,6 +641,7 @@ My header title
     animation: typing 7.5s steps(40, end), blink-caret 0.75s step-end infinite;
     display: flex;
     justify-content: center;
+    font-family: "Arial", sans-serif;
     font-size: 2vw;
   }
 
