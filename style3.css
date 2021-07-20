@@ -2,7 +2,7 @@
 For mosaic.html
 */
 body {
-  background-image: linear-gradient(#200122, #6f0000)
+  background-color: #444f5e;
 }
 
 * {
@@ -17,13 +17,13 @@ body {
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(https://i.pinimg.com/originals/c4/77/71/c477714abda92f61a542b999e80acd34.jpg);
+    height: 120vh;
     background-size: cover;
     background-position: center;
-    min-height: 850px;
+    min-height: 650px;
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
-  
   b {
     font-size: 40px;
     text-align: center;
@@ -32,10 +32,10 @@ body {
 
   .title h1 {
     color: #FFC733;
-    font-size: 55px;
+    font-size: 50px;
     position: static;
-    margin-left: 25%;
-    padding-top: 5%;
+    margin-left: 30%;
+    padding-top: 10%;
   }
 
   .title p {
@@ -168,10 +168,6 @@ body {
   .show {
     display: block;
   }
-  
-  #pictureMosaicsEmbed {
-    padding-left: 300px;
-  }
 
   .typewriter p {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -223,7 +219,7 @@ The header or title at top of my page
     height: 120vh;
     background-size: cover;
     background-position: center;
-    min-height: 850px;
+    min-height: 650px;
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
@@ -383,10 +379,6 @@ The header or title at top of my page
     justify-content: center;
     font-size: 30px;
   }
-  
-  #pictureMosaicsEmbed {
-    padding-left: 110px;
-  }
 
   /* The typing effect */
   @keyframes typing {
@@ -424,12 +416,12 @@ The header or title at top of my page
     height: 120vh;
     background-size: cover;
     background-position: center;
-    min-height: 800px;
+    min-height: 600px;
     background-repeat: no-repeat;
   }
 
   .title h1 {
-    color: #FFC733;
+    color: #fff;
     font-size: 30px;
     position: static;
     margin-left: 20%;
@@ -439,7 +431,7 @@ The header or title at top of my page
   b {
     font-size: 20px;
     text-align: center;
-    padding-left: 130px;
+    padding-left: 60px;
   }
 
   .title p {
@@ -572,10 +564,6 @@ The header or title at top of my page
 
   .show {
     display: block;
-  }
-  
-  #pictureMosaicsEmbed {
-    padding-left: 0px;
   }
 
   .typewriter p {
@@ -632,17 +620,17 @@ The header or title at top of my page
   }
 
   .title h1 {
-    color: #FFC733;
-    font-size: 22px;
+    color: #fff;
+    font-size: 20px;
     position: static;
-    margin-left: 15%;
+    margin-left: 20%;
     padding-top: 40%;
   }
 
   b {
     font-size: 20px;
     text-align: center;
-    padding-left: 40px;
+    padding-left: 60px;
   }
 
   .title p {
@@ -786,7 +774,7 @@ The header or title at top of my page
     animation: typing 7.5s steps(40, end), blink-caret 0.75s step-end infinite;
     display: flex;
     justify-content: center;
-    font-size: 45px;
+    font-size: 35px;
   }
 
   /* The typing effect */
