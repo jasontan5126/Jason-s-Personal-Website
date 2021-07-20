@@ -168,6 +168,10 @@ body {
   .show {
     display: block;
   }
+  
+  #pictureMosaicsEmbed {
+    padding-left: 300px;
+  }
 
   .typewriter p {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -379,6 +383,10 @@ The header or title at top of my page
     justify-content: center;
     font-size: 30px;
   }
+  
+  #pictureMosaicsEmbed {
+    padding-left: 110px;
+  }
 
   /* The typing effect */
   @keyframes typing {
@@ -564,6 +572,10 @@ The header or title at top of my page
 
   .show {
     display: block;
+  }
+  
+  #pictureMosaicsEmbed {
+    padding-left: 0px;
   }
 
   .typewriter p {
