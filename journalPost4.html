@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jason's Personal Website</title>
+    <link rel="stylesheet" href="journalPost4.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="journal.html">Journal</a>
+        <a href="projects.html">Projects</a>
+
+        <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">
+            Museum of My Nostalgia
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="nonstalgia.html">Games</a>
+            <a href="nonstalgia1.html">Technologies</a>
+            <a href="nonstalgia2.html">Kids Shows/Cartoons</a>
+          </div>
+        </div>
+        <a href="mosaic.html">Mosaic of Friends </a>
+      </div>
+
+      <div class="title">
+        <h1><u>4th Post:</u> "Red Sun" and Reflect on My Internship<br /></h1>
+      </div>
+    </header>
+    <br />
+    <br /><br />
+
+    <div class="myThought">
+      <p>
+        July is almost coming to the end and it's almost August. It feels like
+        this summer is going by pretty fast now that at least 1 month of my
+        summer internship has passed by pretty fast. Before even starting the
+        summer internship, I found myself living in a dire situation because I
+        was living in a time where I had nobody to interact with in person other
+        than my family members. <br /><br />
+
+        Until now, I felt overjoyed because of the idea that I've met a lot of
+        new people who are mainly college students. Most of them were pretty
+        nice. Plus they were all part of the same department that I was assigned
+        to work for. We even sat together at a certain work table every Friday
+        whenever it's our lunch break just so we can enjoy interacting with each
+        other during our spare time. Not only that, I felt like I've changed
+        ever since I first started the internship because I've learned a lot,
+        learned to problem solve and rely on each other whenever we don't
+        understand something to problem solve each other's problems.
+        <br /><br />
+
+        While I enjoyed the summer internship, Tuesday, there was actually a
+        rare natural phenomenon that I got the chance to see with my own eyes.
+        This happened when I was outdoors mainly because I was taking a walk
+        enjoying my own relaxation of nature. During that time, the sky looked
+        so smoky even though it looked like clouds. You couldn't even breath in
+        it because that meant damaging my respiratory system. What was
+        interesting that I got the chance to view with my own eyes was the "red
+        sun" high in the sky. I thought, "How could the sun be red? It's not
+        even close to sunset or sunrise. I should expect the color of the sun to
+        be white". Until then, I found out that it's because of the wildfire
+        smoke from the West Coast since I initially thought there was a volcano
+        eruption going on. I may never see this natural phenomenon in a few
+        years.<br /><br />
+
+        Seeing a red sun plus doing my summer internship were my top moments
+        this summer because it's not often that I get to experience these
+        moments often in my life. Plus I'm hoping for good moments in the future
+        which will bring better outcomes for me.
+      </p>
+    </div>
+    <br /><br />
+
+    <script>
+      /* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(e) {
+        if (!e.target.matches(".dropbtn")) {
+          var myDropdown = document.getElementById("myDropdown");
+          if (myDropdown.classList.contains("show")) {
+            myDropdown.classList.remove("show");
+          }
+        }
+      };
+    </script>
+
+    <!-- footer -->
+    <div id="bottom" class="footer" style="text-align: center;">
+      <ul class="contact">
+        <p>
+          Looking forward to connecting with u!!!
+        </p>
+        <br />
+
+        <li class="footer-li">
+          <a href="mailto: jasontan5126@yahoo.com" target="_blank">
+            <img
+              class="icon"
+              src="https://images.macrumors.com/t/luK72IwHa4j7hOb_1ltxuO-L-c0=/1200x1200/smart/article-new/2020/04/mail-ios-app-icon.png"
+              style="width: 100px; height: 100px;"
+            />
+          </a>
+        </li>
+
+        <li class="footer-li">
+          <a
+            href="https://www.instagram.com/jtan_21centurysightseer/"
+            target="_blank"
+          >
+            <img
+              class="icon"
+              src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Finstagram-logo-svg-vector-for-print.svg?v=1623621167680"
+              style="width: 100px; height: 100px;"
+            />
+          </a>
+        </li>
+
+        <li class="footer-li">
+          <a
+            href="https://www.linkedin.com/in/jason-tan-830765177/"
+            target="_blank"
+          >
+            <img
+              class="icon"
+              src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fsocial-linkedin-circle-512.png?v=1622388542796"
+              style="width: 100px; height: 100px;"
+            />
+          </a>
+        </li>
+        <li class="footer-li">
+          <a href="https://github.com/jasontan5126" target="_blank">
+            <img
+              class="icon"
+              src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fgithub-mark.png?v=1622564069518"
+              style="width: 100px; height: 100px;"
+            />
+          </a>
+        </li>
+        <br /><br />
+        <p>@ 2021 Jason</p>
+      </ul>
+    </div>
+  </body>
+</html>
