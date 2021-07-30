@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jason's Personal Website</title>
+    <link rel="stylesheet" href="journalPost5.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="journal.html">Journal</a>
+        <a href="projects.html">Projects</a>
+
+        <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">
+            Museum of My Nostalgia
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="nonstalgia.html">Games</a>
+            <a href="nonstalgia1.html">Technologies</a>
+            <a href="nonstalgia2.html">Kids Shows/Cartoons</a>
+          </div>
+        </div>
+        <a href="mosaic.html">Mosaic of Friends </a>
+      </div>
+
+      <div class="title">
+        <h1><u>5th Post:</u> New Google Doodle Game I Played<br /></h1>
+      </div>
+    </header>
+    <br />
+    <br /><br />
+
+    <div class="myThought">
+      <p>
+        
+      </p>
+    </div>
+    <br /><br />
+
+    <script>
+      /* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(e) {
+        if (!e.target.matches(".dropbtn")) {
+          var myDropdown = document.getElementById("myDropdown");
+          if (myDropdown.classList.contains("show")) {
+            myDropdown.classList.remove("show");
+          }
+        }
+      };
+    </script>
+
+    <!-- footer -->
+    <div id="bottom" class="footer" style="text-align: center;">
+      <ul class="contact">
+        <p>
+          Looking forward to connecting with u!!!
+        </p>
+        <br />
+
+        <li class="footer-li">
+          <a href="mailto: jasontan5126@yahoo.com" target="_blank">
+            <img
+              class="icon"
+              src="https://images.macrumors.com/t/luK72IwHa4j7hOb_1ltxuO-L-c0=/1200x1200/smart/article-new/2020/04/mail-ios-app-icon.png"
+              style="width: 100px; height: 100px;"
+            />
+          </a>
+        </li>
+
+        <li class="footer-li">
+          <a
+            href="https://www.instagram.com/jtan_21centurysightseer/"
+            target="_blank"
+          >
+            <img
+              class="icon"
+              src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Finstagram-logo-svg-vector-for-print.svg?v=1623621167680"
+              style="width: 100px; height: 100px;"
+            />
+          </a>
+        </li>
+
+        <li class="footer-li">
+          <a
+            href="https://www.linkedin.com/in/jason-tan-830765177/"
+            target="_blank"
+          >
+            <img
+              class="icon"
+              src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fsocial-linkedin-circle-512.png?v=1622388542796"
+              style="width: 100px; height: 100px;"
+            />
+          </a>
+        </li>
+        <li class="footer-li">
+          <a href="https://github.com/jasontan5126" target="_blank">
+            <img
+              class="icon"
+              src="https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fgithub-mark.png?v=1622564069518"
+              style="width: 100px; height: 100px;"
+            />
+          </a>
+        </li>
+        <br /><br />
+        <p>@ 2021 Jason</p>
+      </ul>
+    </div>
+  </body>
+</html>
