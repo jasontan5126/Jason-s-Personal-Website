@@ -6,6 +6,13 @@ For index.html
 To set the body background after the title and footer
 */
 
+body {
+  background-color: #444f5e;
+}
+
+/*
+Default style for my page
+*/
 * {
   margin: 0;
   padding: 0;
@@ -54,7 +61,7 @@ My header title
     color: #fff;
     font-size: 80px;
     position: static;
-    margin-left: 30%;
+    margin-left: 35%;
     padding-top: 10%;
   }
 
@@ -249,7 +256,7 @@ My header title
   .title h1 {
     font-size: 60px;
     position: static;
-    margin-left: 30%;
+    margin-left: 33%;
     padding-top: 10%;
   }
 
