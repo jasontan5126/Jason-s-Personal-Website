@@ -7,7 +7,7 @@ To set the body background after the title and footer
 */
 
 body {
-  background-image: linear-gradient(#000428, #004e92)
+  background-image: linear-gradient(#000428, #004e92);
 }
 
 /*
@@ -44,7 +44,6 @@ My header title
     padding-top: 20%;
   }
 
-
   ul {
     float: right;
     margin-right: 110px;
@@ -77,37 +76,35 @@ My header title
     width: 30.3%;
     margin-bottom: 16px;
   }
-  
-  .myThought p{
+
+  .myThought p {
     font-size: 2vw;
     margin-left: 300px;
     margin-right: 300px;
   }
-  
+
   .myThought img {
     width: 100%;
     height: 400px;
     margin-right: 15px;
     padding-top: 15px;
   }
-  
-  .myThought ol{
+
+  .myThought ol {
     font-size: 3vw;
     margin-left: 420px;
     margin-right: 300px;
   }
-  
+
   .games {
-    text-align: center;    
+    text-align: center;
     width: 100vw;
     margin-bottom: 16px;
   }
 
-
   .games img {
-    width: 30%;    
+    width: 30%;
   }
-
 
   .footer {
     float: left;
@@ -257,7 +254,6 @@ My header title
   }
 }
 
-
 /*
 The header or title at top of my page
 */
@@ -318,19 +314,19 @@ My header title
     width: 30.3%;
     margin-bottom: 16px;
   }
-  
-  .myThought p{
+
+  .myThought p {
     font-size: 2vw;
     margin-left: 300px;
     margin-right: 300px;
   }
-  
-  .myThought ol{
+
+  .myThought ol {
     font-size: 2vw;
     margin-left: 420px;
     margin-right: 300px;
   }
-  
+
   .myThought img {
     width: 100%;
     height: 400px;
@@ -338,16 +334,15 @@ My header title
     padding-top: 15px;
     float: left;
   }
-  
+
   .games {
-    text-align: center;    
+    text-align: center;
     width: 100vw;
     margin-bottom: 16px;
   }
 
-
   .games img {
-    width: 30%;    
+    width: 30%;
   }
 
   .footer {
@@ -498,10 +493,6 @@ My header title
   }
 }
 
-
-
-
-
 /*mobile Iphone 11*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   * {
@@ -513,14 +504,13 @@ My header title
 
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fmatt-noble-BpTMNN9JSmQ-unsplash.jpg?v=1623811585897);
+      url(https://i.pinimg.com/originals/49/0b/85/490b855df008e14c963b26123ebfbe06.jpg);
     height: 120vh;
     background-size: cover;
     background-position: center;
     min-height: 500px;
     max-width: 100%;
     background-repeat: no-repeat;
-   
   }
 
   /*
@@ -578,27 +568,25 @@ My header title
     width: 30.3%;
     margin-bottom: 16px;
   }
-  
-  .myThought p{
+
+  .myThought p {
     font-size: 4vw;
     margin-left: 50px;
   }
-  
-  .myThought ol{
+
+  .myThought ol {
     font-size: 4vw;
     margin-left: 100px;
   }
-  
+
   .games {
-    text-align: center;    
+    text-align: center;
     margin-bottom: 16px;
   }
 
-
   .games img {
-    width: 70%;    
+    width: 70%;
   }
-
 
   .footer {
     float: left;
@@ -718,10 +706,6 @@ My header title
   }
 }
 
-
-
-
-
 /*mobile Iphone 11*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   * {
@@ -732,8 +716,7 @@ My header title
   }
 
   header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fmatt-noble-BpTMNN9JSmQ-unsplash.jpg?v=1623811585897);
+    background-image: linear-gradient(#7b4397, #dc2430);
 
     background-size: cover;
     background-position: center;
@@ -750,8 +733,8 @@ My header title
     color: #fff;
     font-size: 30px;
     position: static;
-    margin-left: 25%;
-    padding-top: 10%;
+    margin-left: 0%;
+    padding-top: 15%;
   }
 
   /*
@@ -798,14 +781,10 @@ My header title
     width: 30.3%;
     margin-bottom: 16px;
   }
-  .myThought p{
+  .myThought p {
     font-size: 2vw;
     margin-left: 200px;
-  }
-  
-  .myThought ol{
-    font-size: 2vw;
-    margin-left: 250px;
+    margin-right: 200px;
   }
 
   .footer {
