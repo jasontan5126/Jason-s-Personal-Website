@@ -43,17 +43,17 @@ My header title
     margin-left: 30%;
     padding-top: 10%;
   }
-  
-  .body h2{
+
+  .body h2 {
     text-align: center;
     font-size: 50px;
   }
-  
-  .body1 p{
+
+  .body1 p {
     padding-left: 640px;
   }
-  
-  .body2 p{
+
+  .body2 p {
     padding-right: 580px;
   }
 
@@ -264,17 +264,17 @@ My header title
     margin-left: 20%;
     padding-top: 10%;
   }
-  
-  .body h2{
+
+  .body h2 {
     text-align: center;
     font-size: 50px;
   }
-  
-  .body1 p{
+
+  .body1 p {
     padding-left: 440px;
   }
-  
-  .body2 p{
+
+  .body2 p {
     padding-left: 150px;
   }
 
@@ -459,10 +459,6 @@ My header title
   }
 }
 
-
-
-
-
 /*mobile Iphone 11*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   * {
@@ -474,7 +470,7 @@ My header title
 
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(https://arandano.lajornadamaya.mx/img/files/Doodle1.jpeg);
+      url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2FDoodle1.webp?v=1627872908832);
     height: 150vh;
     background-size: cover;
     background-position: 47% 15%;
@@ -493,13 +489,13 @@ My header title
     margin-left: 15%;
     padding-top: 50%;
   }
-  
-  .body h2{
+
+  .body h2 {
     text-align: center;
     font-size: 30px;
   }
-  
-  .body2 p{
+
+  .body2 p {
     text-align: justify;
   }
 
@@ -564,7 +560,7 @@ My header title
     border: 1px solid transparent;
   }
 
-  .footer p{
+  .footer p {
     font-size: 20px;
   }
 
@@ -698,26 +694,25 @@ My header title
     padding-top: 10%;
   }
 
-
   .title p {
     color: #fff;
     margin-left: 10%;
     margin-right: 8%;
   }
-  
-  .body h2{
+
+  .body h2 {
     text-align: center;
     font-size: 30px;
   }
-  
-  .body1 p{
+
+  .body1 p {
     padding-left: 140px;
   }
-  
-  .body2 p{
+
+  .body2 p {
     padding-left: 20px;
   }
-  
+
   ul {
     float: right;
     margin-right: 110px;
