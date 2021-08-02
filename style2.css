@@ -24,7 +24,7 @@ Default style for my page
 @media screen and (min-width: 1100px) and (max-width: 2000px) {
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fmatt-noble-BpTMNN9JSmQ-unsplash.jpg?v=1623811585897);
+      url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2FQ9cZhotjbXNAtRcrMRqCz5.jpg?v=1627870703445);
     height: 120vh;
     background-size: cover;
     background-position: center;
@@ -43,17 +43,17 @@ My header title
     margin-left: 30%;
     padding-top: 10%;
   }
-  
-  .body h2{
+
+  .body h2 {
     text-align: center;
     font-size: 50px;
   }
-  
-  .body1 p{
+
+  .body1 p {
     padding-left: 640px;
   }
-  
-  .body2 p{
+
+  .body2 p {
     padding-right: 580px;
   }
 
@@ -245,7 +245,7 @@ The header or title at top of my page
 @media screen and (min-width: 520px) and (max-width: 1400px) {
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fmatt-noble-BpTMNN9JSmQ-unsplash.jpg?v=1623811585897);
+      url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2FQ9cZhotjbXNAtRcrMRqCz5.jpg?v=1627870703445);
     height: 120vh;
     background-size: cover;
     background-position: center;
@@ -264,17 +264,17 @@ My header title
     margin-left: 20%;
     padding-top: 10%;
   }
-  
-  .body h2{
+
+  .body h2 {
     text-align: center;
     font-size: 50px;
   }
-  
-  .body1 p{
+
+  .body1 p {
     padding-left: 440px;
   }
-  
-  .body2 p{
+
+  .body2 p {
     padding-left: 150px;
   }
 
@@ -459,10 +459,6 @@ My header title
   }
 }
 
-
-
-
-
 /*mobile Iphone 11*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   * {
@@ -474,7 +470,7 @@ My header title
 
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fmatt-noble-BpTMNN9JSmQ-unsplash.jpg?v=1623811585897);
+      url(https://i.pinimg.com/originals/49/0b/85/490b855df008e14c963b26123ebfbe06.jpg);
     height: 120vh;
     background-size: cover;
     background-position: center;
@@ -493,13 +489,13 @@ My header title
     margin-left: 15%;
     padding-top: 50%;
   }
-  
-  .body h2{
+
+  .body h2 {
     text-align: center;
     font-size: 30px;
   }
-  
-  .body2 p{
+
+  .body2 p {
     text-align: justify;
   }
 
@@ -564,7 +560,7 @@ My header title
     border: 1px solid transparent;
   }
 
-  .footer p{
+  .footer p {
     font-size: 20px;
   }
 
@@ -677,7 +673,7 @@ My header title
   }
 
   header {
-    background-image: linear-gradient(#7b4397, #dc2430);
+    background-image: linear-gradient(#000428, #004e92);
 
     background-size: cover;
     background-position: center;
@@ -698,29 +694,25 @@ My header title
     padding-top: 10%;
   }
 
-  /*
-My header title
-*/
-
   .title p {
     color: #fff;
     margin-left: 10%;
     margin-right: 8%;
   }
-  
-  .body h2{
+
+  .body h2 {
     text-align: center;
     font-size: 30px;
   }
-  
-  .body1 p{
+
+  .body1 p {
     padding-left: 140px;
   }
-  
-  .body2 p{
+
+  .body2 p {
     padding-left: 20px;
   }
-  
+
   ul {
     float: right;
     margin-right: 110px;
