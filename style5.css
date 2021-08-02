@@ -918,9 +918,16 @@ For nonstalgia.html
     padding-top: 10%;
   }
 
+  .games {
+    margin-left: 100px;
+    margin-right: 100px;
+    float: left;
+    width: 100%%;
+    margin-bottom: 16px;
+  }
+
   .games img {
-    max-width: 100%;
-    margin-left: 180px;
+    margin-left: 160px;
     text-align: center;
     height: 200px;
   }
@@ -929,7 +936,6 @@ For nonstalgia.html
     height: auto;
     margin-left: 40px;
     font-size: 20px;
-    margin-left: 40px;
     margin-right: 120px;
     text-align: center;
   }
@@ -1092,4 +1098,3 @@ For nonstalgia.html
     }
   }
 }
-border-color: blue;
