@@ -513,7 +513,7 @@ My header title
 
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fmatt-noble-BpTMNN9JSmQ-unsplash.jpg?v=1623811585897);
+      url(https://i.pinimg.com/originals/49/0b/85/490b855df008e14c963b26123ebfbe06.jpg);
     height: 120vh;
     background-size: cover;
     background-position: center;
@@ -527,7 +527,7 @@ My header title
 */
   .title h1 {
     color: #fff;
-    font-size: 17px;
+    font-size: 13px;
     position: static;
     margin-left: 5%;
     padding-top: 50%;
@@ -731,8 +731,7 @@ My header title
   }
 
   header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2Fmatt-noble-BpTMNN9JSmQ-unsplash.jpg?v=1623811585897);
+    background-image: linear-gradient(#7b4397, #dc2430);
 
     background-size: cover;
     background-position: center;
@@ -747,10 +746,10 @@ My header title
 */
   .title h1 {
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
     position: static;
-    margin-left: 25%;
-    padding-top: 10%;
+    margin-left: 0%;
+    padding-top: 15%;
   }
 
   /*
@@ -797,15 +796,13 @@ My header title
     width: 30.3%;
     margin-bottom: 16px;
   }
+  
   .myThought p{
     font-size: 2vw;
     margin-left: 200px;
+    margin-right: 200px;
   }
   
-  .myThought ol{
-    font-size: 2vw;
-    margin-left: 250px;
-  }
 
   .footer {
     float: left;
