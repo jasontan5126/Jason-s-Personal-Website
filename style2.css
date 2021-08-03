@@ -24,7 +24,7 @@ Default style for my page
 @media screen and (min-width: 1100px) and (max-width: 2000px) {
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2FQ9cZhotjbXNAtRcrMRqCz5.jpg?v=1627870703445);
+      url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2FIMG_1396.jpg?v=1627950677118);
     height: 120vh;
     background-size: cover;
     background-position: center;
@@ -245,7 +245,7 @@ The header or title at top of my page
 @media screen and (min-width: 520px) and (max-width: 1400px) {
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2FQ9cZhotjbXNAtRcrMRqCz5.jpg?v=1627870703445);
+      url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2FIMG_1396.jpg?v=1627950677118);
     height: 120vh;
     background-size: cover;
     background-position: center;
@@ -470,10 +470,10 @@ My header title
 
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2FDoodle1.webp?v=1627872908832);
+      url(https://cheesecake.articleassets.meaww.com/543461/uploads/4536a210-ebad-11eb-90ce-e7d85c7cc420_800_420.png);
     height: 150vh;
     background-size: cover;
-    background-position: 47% 15%;
+    background-position: 29%;
     min-height: 700px;
     max-width: 100%;
     background-repeat: no-repeat;
@@ -487,7 +487,7 @@ My header title
     font-size: 30px;
     position: static;
     margin-left: 15%;
-    padding-top: 50%;
+    padding-top: 60%;
   }
 
   .body h2 {
