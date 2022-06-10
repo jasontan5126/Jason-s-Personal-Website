@@ -4,4 +4,4 @@ My personal website finished after implementing my design/ideas from May 18, 202
 
 Made using https://glitch.com/
 
-My Website: https://jason-tan-personal-website.glitch.me
+My Website: https://jason-personal-website.glitch.me/
