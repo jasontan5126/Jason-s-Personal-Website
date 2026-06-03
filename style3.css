@@ -113,7 +113,7 @@ body {
 
   .navbar a {
     float: left;
-    font-size: 45px;
+    font-size: 37px;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -127,7 +127,7 @@ body {
 
   .dropdown .dropbtn {
     cursor: pointer;
-    font-size: 45px;
+    font-size: 37px;
     border: none;
     outline: none;
     color: white;
@@ -312,7 +312,7 @@ The header or title at top of my page
 
   .navbar a {
     float: left;
-    font-size: 23px;
+    font-size: 30px;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -326,7 +326,7 @@ The header or title at top of my page
 
   .dropdown .dropbtn {
     cursor: pointer;
-    font-size: 23px;
+    font-size: 30px;
     border: none;
     outline: none;
     color: white;
