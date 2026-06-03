@@ -312,7 +312,7 @@ The header or title at top of my page
 
   .navbar a {
     float: left;
-    font-size: 30px;
+    font-size: 23px;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -326,7 +326,7 @@ The header or title at top of my page
 
   .dropdown .dropbtn {
     cursor: pointer;
-    font-size: 30px;
+    font-size: 23px;
     border: none;
     outline: none;
     color: white;
