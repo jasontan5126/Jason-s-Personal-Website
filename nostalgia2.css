@@ -1,5 +1,5 @@
 /*
-For nonstalgia.html
+For nostalgia2.html
 */
 
 * {
@@ -9,31 +9,40 @@ For nonstalgia.html
   color: white;
 }
 
-/* Desktops */
-/*
-@media screen and (min-width: 769px) {
-*/
+/* Desktops 
+@media screen and (min-width: 769px) { */
 @media screen and (min-width: 1500px) and (max-width: 2000px) {
   body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2F2716419.jpg?v=1623806135332);
+      url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2F2197042.jpg?v=1623808933941);
     height: 130vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    min-width: 500px;
   }
 
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(https://media.istockphoto.com/vectors/retro-gaming-maze-game-background-vector-id1271615792?b=1&k=6&m=1271615792&s=612x612&w=0&h=SeFob03-ph1KbjdImOAyeigmClJcvxDMXMevCwhcWZo=);
-    height: 130vh;
+      url(https://preview.redd.it/0bb6dqsiab451.gif?s=b0c65596a54a30708da26669da6e79abf3be1680);
     background-size: cover;
     background-position: center;
-    min-height: 500px;
+    min-height: 900px;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+  }
+
+  iframe {
+    margin-left: 300px;
+  }
+
+  .tableofcontent ol {
+    top: 2rem;
+    padding-left: 750px;
+    align-self: start;
+    max-width: 100%;
+    text-decoration: none;
+    font-size: 25px;
   }
 
   .title h1 {
@@ -49,6 +58,14 @@ For nonstalgia.html
     margin-left: 30%;
     margin-right: 8%;
   }
+  
+  .intro {
+    margin-left: 100px;
+    margin-right: 100px;
+    float: left;
+    width: 30.3%;
+    margin-bottom: 16px;
+  }
 
   ul {
     float: right;
@@ -59,31 +76,6 @@ For nonstalgia.html
 
   ul li {
     display: inline-block;
-  }
-
-  .symbols h2 {
-    top: 2rem;
-    align-self: start;
-    margin-left: 735px;
-    text-decoration: none;
-    font-size: 20px;
-  }
-
-  .symbols p {
-    top: 2rem;
-    align-self: start;
-    margin-left: 735px;
-    text-decoration: none;
-    font-size: 20px;
-  }
-
-  .tableofcontent ol {
-    position: sticky;
-    top: 2rem;
-    align-self: start;
-    margin-left: 735px;
-    text-decoration: none;
-    font-size: 25px;
   }
 
   .main ul li a {
@@ -110,69 +102,17 @@ For nonstalgia.html
   }
 
   .games {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 275px;
     float: left;
     width: 30.3%;
     margin-bottom: 16px;
   }
 
-  .games p {
-    font-size: 17px;
-  }
-
-  .games img {
+  .nonstalgialist1 {
+    float: left;
+    background-color: #cccccc;
     width: 100%;
-    height: 400px;
-    margin-right: 15px;
-    padding-top: 15px;
-  }
-
-  .align1 img {
-    padding-top: 43px;
-  }
-
-  .align2 img {
-    padding-top: 36px;
-  }
-
-  .nonstalgialist p {
-    margin-right: 200px;
-    font-size: 40px;
-  }
-
-  .nonstalgialist1 p {
-    text-align: center;
-    margin-right: 850px;
-    font-size: 40px;
-    max-width: 100%;
-  }
-
-  .nonstalgialist2 p {
-    text-align: center;
-    margin-right: 350px;
-    font-size: 30px;
-    max-width: 100%;
-  }
-
-  .nonstalgialist3 p {
-    text-align: center;
-    margin-right: 400px;
-    font-size: 30px;
-    max-width: 100%;
-  }
-
-  .games1 p {
-    height: auto;
-    margin-left: 630px;
-    margin-right: 300px;
-    font-size: 30px;
-  }
-
-  .games1 img {
-    width: 100%;
-    height: 500px;
-    margin-right: 15px;
+    position: static;
   }
 
   .footer {
@@ -180,11 +120,6 @@ For nonstalgia.html
     background-color: black;
     width: 100%;
     position: static;
-  }
-
-  .footer p {
-    font-size: 70px;
-    padding-right: 60px;
   }
 
   .footer ul li a {
@@ -195,10 +130,39 @@ For nonstalgia.html
     border: 1px solid transparent;
   }
 
+  .footer p {
+    font-size: 70px;
+  }
+
   .tooltip {
     position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
+  }
+
+  .symbols h2 {
+    top: 2rem;
+    align-self: start;
+    margin-left: 755px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .symbols p {
+    top: 2rem;
+    align-self: start;
+    margin-left: 755px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .tableofcontent ol {
+    position: sticky;
+    top: 2rem;
+    align-self: start;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 25px;
   }
 
   .tooltip .tooltiptext {
@@ -212,21 +176,43 @@ For nonstalgia.html
     position: absolute;
     z-index: 1;
     top: -5px;
-    left: 110%;
+    left: 100%;
   }
 
   .tooltip .tooltiptext::after {
+    content: "";
     position: absolute;
     top: 50%;
     right: 100%;
     margin-top: -5px;
-    border-width: 5px;
+    border-width: 20px;
     border-style: solid;
     border-color: transparent black transparent transparent;
   }
-
   .tooltip:hover .tooltiptext {
     visibility: visible;
+  }
+
+  .nonstalgialist1 {
+    background-color: black;
+  }
+
+  .nonstalgialist1 p {
+    text-align: center;
+    margin-right: 180px;
+    font-size: 40px;
+  }
+
+  .games1 img {
+    max-width: 100%;
+    padding-left: 700px;
+    height: 275px;
+  }
+
+  .games1 p {
+    max-width: 100%;
+    padding-left: 700px;
+    font-size: 30px;
   }
 
   .navbar {
@@ -308,6 +294,14 @@ For nonstalgia.html
     font-size: 35px;
   }
 
+  .tableofcontent {
+    top: 2rem;
+    padding-right: 550px;
+    align-self: start;
+    max-width: 100%;
+    text-decoration: none;
+  }
+
   /* The typing effect */
   @keyframes typing {
     from {
@@ -330,34 +324,63 @@ For nonstalgia.html
   }
 }
 
-/*Seem to work for laptops 
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) { */
+/*
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { */
+
+/*laptops */
 @media screen and (min-width: 810px) and (max-width: 1499px) {
   body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2F2716419.jpg?v=1623806135332);
+      url(https://cdn.glitch.com/274aa7d8-acec-4aad-aaf8-ce167656ed91%2F2197042.jpg?v=1623808933941);
     height: 130vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    min-width: 500px;
+  }
+
+  iframe {
+    margin-left: 70px;
   }
 
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(https://media.istockphoto.com/vectors/retro-gaming-maze-game-background-vector-id1271615792?b=1&k=6&m=1271615792&s=612x612&w=0&h=SeFob03-ph1KbjdImOAyeigmClJcvxDMXMevCwhcWZo=);
+      url(https://preview.redd.it/0bb6dqsiab451.gif?s=b0c65596a54a30708da26669da6e79abf3be1680);
     height: 130vh;
     background-size: cover;
     background-position: center;
     min-height: 700px;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
+  }
+
+  .tableofcontent ol {
+    top: 2rem;
+    padding-left: 500px;
+  }
+
+  .symbols h2 {
+    top: 2rem;
+    align-self: start;
+    margin-left: 490px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  .symbols p {
+    top: 2rem;
+    align-self: start;
+    margin-left: 490px;
+    text-decoration: none;
+    font-size: 20px;
   }
 
   .title h1 {
     color: #fff;
-    font-size: 60px;
+    font-size: 70px;
     position: static;
     margin-left: 15%;
     padding-top: 10%;
@@ -380,31 +403,6 @@ For nonstalgia.html
     display: inline-block;
   }
 
-  .symbols h2 {
-    top: 2rem;
-    align-self: start;
-    margin-left: 490px;
-    text-decoration: none;
-    font-size: 20px;
-  }
-
-  .symbols p {
-    top: 2rem;
-    align-self: start;
-    margin-left: 490px;
-    text-decoration: none;
-    font-size: 20px;
-  }
-
-  .tableofcontent ol {
-    position: sticky;
-    top: 2rem;
-    align-self: start;
-    margin-left: 490px;
-    text-decoration: none;
-    font-size: 20px;
-  }
-
   .main ul li a {
     text-decoration: none;
     color: #fff;
@@ -412,22 +410,6 @@ For nonstalgia.html
     border: 1px solid transparent;
     transition: 0.6s ease;
     font-size: 25px;
-  }
-
-  .nonstalgialist p {
-    text-align: center;
-    margin-right: 100px;
-    font-size: 35px;
-  }
-
-  .games p {
-    font-size: 17px;
-  }
-
-  .games img {
-    max-width: 100%;
-    height: 235px;
-    margin-right: 15px;
   }
 
   .body ul li a {
@@ -452,46 +434,19 @@ For nonstalgia.html
     margin-bottom: 16px;
   }
 
-  .nonstalgialist1 p {
-    text-align: center;
-    margin-right: 370px;
-    font-size: 30px;
-    max-width: 100%;
+  .intro {
+    margin-left: 100px;
+    margin-right: 100px;
+    float: left;
+    width: 30.3%;
+    margin-bottom: 16px;
   }
 
-  .nonstalgialist2 p {
-    text-align: center;
-    margin-right: 350px;
-    font-size: 30px;
-    max-width: 100%;
-  }
-
-  .nonstalgialist3 p {
-    text-align: center;
-    margin-right: 400px;
-    font-size: 30px;
-    max-width: 100%;
-  }
-
-  .games1 p {
-    height: auto;
-    margin-left: 630px;
-    margin-right: 300px;
-    font-size: 30px;
-  }
-
-  .games1 img {
-    max-width: 100%;
-    height: 250px;
-    margin-right: 15px;
-  }
-
-  .align1 img {
-    padding-top: 16px;
-  }
-
-  .align2 img {
-    padding-top: 22px;
+  .nonstalgialist1 {
+    float: left;
+    background-color: #cccccc;
+    width: 100%;
+    position: static;
   }
 
   .footer {
@@ -501,16 +456,16 @@ For nonstalgia.html
     position: static;
   }
 
-  .footer p {
-    font-size: 45px;
-  }
-
   .footer ul li a {
     text-decoration: none;
     background-color: black;
     transition: 0.6s ease;
     padding: 10px 20px;
     border: 1px solid transparent;
+  }
+
+  .footer p {
+    font-size: 45px;
   }
 
   .tooltip {
@@ -530,20 +485,43 @@ For nonstalgia.html
     position: absolute;
     z-index: 1;
     top: -5px;
-    left: 110%;
+    left: 100%;
   }
 
   .tooltip .tooltiptext::after {
+    content: "";
     position: absolute;
     top: 50%;
     right: 100%;
     margin-top: -5px;
-    border-width: 5px;
+    border-width: 20px;
     border-style: solid;
     border-color: transparent black transparent transparent;
   }
   .tooltip:hover .tooltiptext {
     visibility: visible;
+  }
+
+  .nonstalgialist1 {
+    background-color: black;
+  }
+
+  .nonstalgialist1 p {
+    text-align: center;
+    margin-right: 180px;
+    font-size: 40px;
+  }
+
+  .games1 img {
+    max-width: 100%;
+    padding-left: 400px;
+    height: 275px;
+  }
+
+  .games1 p {
+    max-width: 100%;
+    padding-left: 400px;
+    font-size: 30px;
   }
 
   .navbar {
@@ -625,6 +603,15 @@ For nonstalgia.html
     font-size: 2vw;
   }
 
+  .tableofcontent {
+    top: 2rem;
+    padding-right: 550px;
+    align-self: start;
+    max-width: 100%;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
   /* The typing effect */
   @keyframes typing {
     from {
@@ -668,49 +655,29 @@ For nonstalgia.html
 
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url(https://media.istockphoto.com/vectors/retro-gaming-maze-game-background-vector-id1271615792?b=1&k=6&m=1271615792&s=612x612&w=0&h=SeFob03-ph1KbjdImOAyeigmClJcvxDMXMevCwhcWZo=);
+      url(https://cdn.mos.cms.futurecdn.net/XfREyDUvNNapfMnMPV4QMk.jpg);
     height: 130vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    max-width: 100%;
+    min-height: 800px;
   }
 
   .title h1 {
     color: #fff;
     text-align: center;
-    font-size: 26px;
+    font-size: 25px;
     position: static;
     margin-left: 6%;
-    padding-top: 60%;
+    padding-top: 40%;
   }
 
-  ul {
-    float: right;
-    margin-right: 110px;
-    list-style-type: none;
-    margin-top: 25px;
-  }
-
-  ul li {
-    display: inline-block;
-  }
-
-  .main ul li a {
-    text-decoration: none;
+  .title p {
     color: #fff;
-    padding: 10px 20px;
-    border: 1px solid transparent;
-    transition: 0.6s ease;
-    font-size: 25px;
-  }
-
-  .body ul li a {
-    text-decoration: none;
-    color: black;
-    padding: 10px 20px;
-    border: 1px solid transparent;
-    transition: 0.6s ease;
-    font-size: 25px;
+    margin-left: 30%;
+    margin-right: 8%;
+    font-size: 30px;
   }
 
   ul li a:hover {
@@ -718,31 +685,16 @@ For nonstalgia.html
     color: #00;
   }
 
-  .nonstalgialist p {
-    font-size: 30px;
-  }
-
-  .nonstalgialist1 p {
-    text-align: center;
-    font-size: 30px;
-  }
-
-  .nonstalgialist2 p {
-    text-align: center;
-    font-size: 30px;
-  }
-
-  .nonstalgialist3 p {
-    text-align: center;
-    font-size: 30px;
-  }
-
   .games {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 30px;
     float: left;
-    width: 100%%;
+    max-width: 100%;
     margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .games1 {
+    text-align: center;
   }
 
   .games1 p {
@@ -758,6 +710,15 @@ For nonstalgia.html
     margin-left: 40px;
   }
 
+  .nonstalgialist1 p {
+    float: left;
+    background-color: #cccccc;
+    max-width: 100%;
+    margin-left: 90px;
+    background-color: black;
+    font-size: 16px;
+  }
+
   .footer {
     float: left;
     background-color: black;
@@ -765,8 +726,8 @@ For nonstalgia.html
     position: static;
   }
 
-  .footer p {
-    font-size: 25px;
+  ul li {
+    display: inline-block;
   }
 
   .footer ul li a {
@@ -788,7 +749,7 @@ For nonstalgia.html
     color: white;
     width: 100%;
     text-align: center;
-    padding: 14px 16px;
+    padding: 4px 16px;
     text-decoration: none;
   }
 
@@ -854,8 +815,7 @@ For nonstalgia.html
     animation: typing 7.5s steps(40, end), blink-caret 0.75s step-end infinite;
     display: flex;
     justify-content: center;
-    font-size: 12px;
-    font-family: "Monaco", sans-serif;
+    font-size: 13px;
   }
 
   /* The typing effect */
@@ -880,7 +840,7 @@ For nonstalgia.html
   }
 }
 
-/*mobile Iphone 11 landscape*/
+/*mobile Iphone 11*/
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   * {
     margin: 0;
@@ -899,6 +859,10 @@ For nonstalgia.html
     max-width: 100%;
   }
 
+  iframe {
+    margin-left: 200px;
+  }
+
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
       url(https://cdn.mos.cms.futurecdn.net/XfREyDUvNNapfMnMPV4QMk.jpg);
@@ -906,7 +870,8 @@ For nonstalgia.html
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 800px;
+    max-width: 100%;
+    min-height: 1000px;
   }
 
   .title h1 {
@@ -915,28 +880,30 @@ For nonstalgia.html
     font-size: 40px;
     position: static;
     margin-left: 6%;
-    padding-top: 10%;
+    padding-top: 20%;
+  }
+
+  .title p {
+    color: #fff;
+    margin-left: 30%;
+    margin-right: 8%;
+    font-size: 30px;
+  }
+
+  ul li a:hover {
+    background-color: #fff;
+    color: #00;
   }
 
   .games {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 30px;
     float: left;
-    width: 100%%;
+    max-width: 100%;
     margin-bottom: 16px;
-  }
-
-  .games img {
-    margin-left: 160px;
     text-align: center;
-    height: 200px;
   }
 
-  .games p {
-    height: auto;
-    margin-left: 40px;
-    font-size: 20px;
-    margin-right: 120px;
+  .games1 {
     text-align: center;
   }
 
@@ -949,27 +916,16 @@ For nonstalgia.html
 
   .games1 img {
     max-width: 100%;
-    margin-left: 190px;
-    text-align: center;
-    height: 200px;
-  }
-
-  .nonstalgialist p {
-    font-size: 30px;
+    height: 250px;
+    margin-left: 40px;
   }
 
   .nonstalgialist1 p {
-    text-align: center;
-    font-size: 30px;
-  }
-
-  .nonstalgialist2 p {
-    text-align: center;
-    font-size: 30px;
-  }
-
-  .nonstalgialist3 p {
-    text-align: center;
+    float: left;
+    background-color: #cccccc;
+    max-width: 100%;
+    margin-left: 150px;
+    background-color: black;
     font-size: 30px;
   }
 
@@ -982,10 +938,6 @@ For nonstalgia.html
 
   ul li {
     display: inline-block;
-  }
-
-  .footer p {
-    font-size: 25px;
   }
 
   .footer ul li a {
@@ -1007,7 +959,7 @@ For nonstalgia.html
     color: white;
     width: 100%;
     text-align: center;
-    padding: 14px 16px;
+    padding: 4px 16px;
     text-decoration: none;
   }
 
@@ -1073,8 +1025,7 @@ For nonstalgia.html
     animation: typing 7.5s steps(40, end), blink-caret 0.75s step-end infinite;
     display: flex;
     justify-content: center;
-    font-size: 20px;
-    font-family: "Monaco", sans-serif;
+    font-size: 17px;
   }
 
   /* The typing effect */
